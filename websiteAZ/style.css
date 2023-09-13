@@ -1,0 +1,369 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width:100%;
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(0, 0, 0); 
+    background: #292929;
+    margin: 0;
+}
+
+.main{
+    justify-content: center;
+}
+
+.wrapper{
+    justify-content: center;
+}
+
+.main_page{
+    background: url('../websiteAZ/assets/images/Desktop-black-foto.jpg') no-repeat;
+    background-size: 121.5%;
+    background-position: top;
+}
+
+.name_and_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 255px;
+}
+
+.name{
+    font-family: Montserrat;
+    font-size: 66px;
+    font-weight: 700;
+    margin-top: 135px;
+    letter-spacing: 0.06em;
+    line-height: 70px;
+    margin-bottom: 0;
+}
+
+.vedyschi_and_fokysnic{
+    display: flex;
+    flex-direction: row;
+}
+
+.vedyschi{
+    font-family: Bookman Old Style;
+    font-size: 35px;
+    letter-spacing: -0.01em;
+}
+
+.line{
+  max-height: 20px;
+  margin: 14.5px 10px 0 10px;
+  width: 3px;
+  height: 18.5px;
+}
+
+.phone{
+    font-size: 40px;
+    margin-top: 60px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.phone:hover{
+    color: rgb(58, 58, 58);
+    transition: 1s;
+}
+
+.text_under_phone{
+    display: flex;
+    flex-direction: row;
+}
+
+.phone_img{
+    width: 13%;
+    height: 15%;
+    margin-left: -30px;
+}
+
+.gift{
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-left: 25px;
+    letter-spacing: 0.05em;
+}
+
+.gift_img{
+    width: 13%;
+    height: 13%;
+    margin-top: -30px;
+}
+
+.likes_two{
+    margin-top: 60px;
+}
+
+.like{
+    display: flex;
+    flex-direction: row;
+}
+
+.like_img{
+    width: 6%;
+    height: 6%;
+    margin-top: 10px;
+}
+
+.like_description{
+    margin-left: 10px;
+    font-family: Bookman Old Style;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.like_description2{
+    margin-left: 10px;
+    font-family: Bookman Old Style;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 57px;
+}
+
+.cosial_media{
+    list-style-type: none;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 10px;
+    margin-top: 65px;
+    margin-left: -220px;
+    max-height: 180px;
+}
+
+.link{
+    width: 30%;
+}
+
+.link:hover{
+   width: 35%;
+   transition: 1s;
+}
+
+a {
+    text-decoration:none;
+  }
+
+  /* секция видео */
+  
+  .video{
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: -115px;
+    margin-bottom: 0;
+  }
+
+  .video_description{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -120px;
+  }
+
+  .kavichki{
+    width: 1.5%;
+    height: 1.5%;
+    margin-top: -7px;
+  }
+
+  .video_text{
+    font-family: Bookman Old Style;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: white;
+  }
+
+  .video_prosmotr{
+    font-family: Montserrat;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: 255px;
+  }
+
+  .video_all_promo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 111px;
+  }
+
+  .first_video{
+    margin-right: 35px;
+  }
+
+  .second_video{
+    margin-right: 110px;
+  }
+
+   /* секция обо мне */
+
+   .foto_and_about-me{
+    display: flex;
+    flex-direction: row;
+    background-color: #AEAFB3;
+   }
+
+   .black_foto{
+    width: 32%;
+    height: 32%;
+    margin-left: 190px;
+   }
+
+   .right_about-me{
+    margin-left: -70px;
+   }
+
+   .about_me{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 45px;
+   }
+
+   .all_about-me_description{
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    gap: 25px 35px;
+   }
+
+   .numbers{
+    font-family: montserrat;
+    font-size: 50px;
+    font-weight: 550;
+    margin: 0;
+   }
+
+   .text_about-me{
+    font-family: Bookman Old Style;
+    font-size: 14px;
+   }
+
+   .dollar5{
+    width: 35%;
+   }
+
+/* секция обо мне */
+
+.all_fotter_part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.first_part_footer{
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
+.name_footer{
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+.vedyschi_and_fokysnic_footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.vedyschi_footer{
+    font-family: Montserrat;
+    font-size: 5px;
+    letter-spacing: -0.01em;
+    color: white;
+    margin-bottom: -25px;
+}
+
+.line_footer{
+  max-height: 20px;
+  margin: 7px 5px 0 5px;
+  width: 1px;
+  height: 9px;
+}
+
+.cosial_media_fotter{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 3px;
+    margin-top: 55px;
+    margin-right: 15px;
+    width: 400px;
+}
+
+.link_fotter{
+    width: 78%;
+}
+
+.link_fotter:hover{
+   width: 80%;
+   transition: 1s;
+}
+
+.last_part{
+    margin-top: 35px;
+    margin-right: 100px;
+}
+
+.phone_footer{
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 27px;
+}
+
+.phone_footer:hover{
+    color: rgb(134, 134, 134);
+    transition: 1s;
+}
+
+.text_under_phone_footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.phone_img_footer{
+    width: 10%;
+    height: 12%;
+    margin-left: -30px;
+}
+
+.gift_footer{
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 100;
+    margin-left: 25px;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.gift_img_footer{
+    width: 12%;
+    height: 12%;
+    margin-top: -30px;
+    margin-left: -15px;
+}
