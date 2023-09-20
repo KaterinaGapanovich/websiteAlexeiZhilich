@@ -380,67 +380,68 @@ a {
 /* начало работы с медиа квери*/
 
 @media (max-width: 1921px) {
-    .main_page{
-        height: 768px;
-        background-size: 100%;
-    }
+.main_page{
+    height: 768px;
+    background-size: 100%;
+    transition: 1s;
+}
 
-    .foto_and_about-me{
-        height: 768px;
-       }
+.foto_and_about-me{
+    height: 768px;
+    transition: 1s;
+}
 
+.black_foto{
+    width: 45%;
+    margin-left: -60px;
+    transition: 1s;
+}
 
-       .black_foto{
-        width: 45%;
-        margin-left: -60px;
-       }
+.about_me{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    transition: 1s;
+}
 
+.right_about-me {
+    margin-left: 50px;
+    transition: 1s;
+}
     
-    .about_me{
-        margin-top: 50px;
-        margin-bottom: 60px;
-        transition: 1s;
-    }
-    
-        .right_about-me {
-            margin-left: 50px;
-            transition: 1s;
-        }
-        
-        .numbers{
-            font-size: 1.3em;
-            transition: 1s;
-        }
-        
-        .dollar5{
-            width: 22%;
-        }
-        
-        .text_about-me{
-            font-size: 18px;
-            transition: 1s;
-        }
-        
-        .all_about-me_description{
-            gap: 9% 3%;
-            transition: 1s;
-            }
-    
-            .text_about-me{
-                font-size: 17px;
-                transition: 1s;
-               }
+.numbers{
+    font-size: 1.3em;
+    transition: 1s;
+}
 
+.dollar5{
+    width: 22%;
+    transition: 1s;
+}
+        
+.text_about-me{
+    font-size: 18px;
+    transition: 1s;
+}
+        
+.all_about-me_description{
+    gap: 9% 3%;
+    transition: 1s;
+}
+    
+.text_about-me{
+    font-size: 17px;
+    transition: 1s;
+}
 
 }
 
-
 @media (max-width: 1441px) {
 
-    .main_page{
-        height: 900px;
-        background-size: 115%;
-    }
+.main_page{
+    height: 900px;
+    background-size: 115%;
+    transition: 1s;
+}
 
 .text_left{
     margin-top: 100px;
@@ -452,7 +453,6 @@ a {
     transition: 1s;
 }
 
-
 .video_text{
     font-size: 23px;
     transition: 1s;
@@ -460,7 +460,8 @@ a {
 
 .foto_and_about-me{
     height: 900px;
-   }
+    transition: 1s;
+}
 
 .right_about-me {
     margin-right: 0;
@@ -471,24 +472,26 @@ a {
 .all_about-me_description{
    gap: 10% 1%;
    transition: 1s;
-   }
+}
 
 .text_about-me{
     font-size: 20px;
     transition: 1s;
-   }
+}
 
-   .dollar5{
+.dollar5{
     width: 20%;
     transition: 1s;
-   }
+}
 
 .like_description{
     font-size: 24px;
+    transition: 1s;
 }
 
 .like_description2{
     font-size: 24px;
+    transition: 1s;
 }
 
 .all_fotter_part{
@@ -500,20 +503,21 @@ a {
 
 @media (max-width: 1281px) {
 
-    .main_page{
-        height: 768px;
-        background-size: 115%;
-    }
+.main_page{
+    height: 768px;
+    background-size: 115%;
+    transition: 1s;
+}
 
-    .text_left{
-        margin-top: 70px;
-        transition: 1s;
-    }
+.text_left{
+    margin-top: 70px;
+    transition: 1s;
+}
     
-    .cosial_media{
-        margin-top: 110px;
-        transition: 1s;
-    }
+.cosial_media{
+    margin-top: 110px;
+    transition: 1s;
+}
 
 .vedyschi{
     font-size: 1.9em;
@@ -523,12 +527,14 @@ a {
 .phone{
     font-size: 35px;
     margin-top: 10%;
+    transition: 1s;
 }
 
 .phone_img{
     width: 10%;
     height: 10%;
     margin-left: -15px;
+    transition: 1s;
 }
 
 .gift{
@@ -546,6 +552,7 @@ a {
 .kavichki{
     width: 2%;
     height: 2%;
+    transition: 1s;
 }
 
 .likes_two{
@@ -555,7 +562,8 @@ a {
 
 .foto_and_about-me{
     height: 768px;
-   }
+    transition: 1s;
+}
 
 .about_me{
     margin: 50px 0;
@@ -575,6 +583,7 @@ a {
 
 .dollar5{
     width: 22%;
+    transition: 1s;
 }
 
 .text_about-me{
@@ -587,29 +596,31 @@ a {
     transition: 1s;
 }
 
-
 }
 
 @media (max-width: 1025px) {
 
-    .main_page{
-        height: 768px;
-        background-size: 137%;
-    }
-.name_and_links{
-    margin-left: 100px;
+.main_page{
+    height: 768px;
+    background-size: 137%;
+    transition: 1s;
 }
 
-    .text_left{
-        margin-top: 70px;
-        transition: 1s;
-    }
+.name_and_links{
+    margin-left: 100px;
+    transition: 1s;
+}
+
+.text_left{
+    margin-top: 70px;
+    transition: 1s;
+}
     
-    .cosial_media{
-        margin-top: 110px;
-        margin-right: -50px;
-        transition: 1s;
-    }
+.cosial_media{
+    margin-top: 110px;
+    margin-right: -50px;
+    transition: 1s;
+}
 
 .vedyschi{
     font-size: 1.9em;
@@ -619,12 +630,14 @@ a {
 .phone{
     font-size: 35px;
     margin-top: 10%;
+    transition: 1s;
 }
 
 .phone_img{
     width: 10%;
     height: 10%;
     margin-left: -15px;
+    transition: 1s;
 }
 
 .gift{
@@ -646,17 +659,19 @@ a {
 
 .kavichki{
     width: 2.5%;
-
-  }
+    transition: 1s;
+}
 
 .black_foto{
     width: 60%;
     margin-left: -40px;
-   }
+    transition: 1s;
+}
 
 .foto_and_about-me{
     height: 768px;
-   }
+    transition: 1s;
+}
 
 .about_me{
     margin-top: 50px;
@@ -664,97 +679,100 @@ a {
     transition: 1s;
 }
 
-    .right_about-me {
-        margin-right: 0;
-        margin-left: -200px;
-        transition: 1s;
-    }
+.right_about-me {
+    margin-right: 0;
+    margin-left: -200px;
+    transition: 1s;
+}
     
-    .numbers{
-        font-size: 1.3em;
-        transition: 1s;
-    }
+.numbers{
+    font-size: 1.3em;
+    transition: 1s;
+}
     
-    .dollar5{
-        width: 22%;
-    }
+.dollar5{
+    width: 22%;
+    transition: 1s;
+}
     
-    .text_about-me{
-        font-size: 17px;
-        transition: 1s;
-    }
+.text_about-me{
+    font-size: 17px;
+    transition: 1s;
+}
     
-    .all_about-me_description{
-        gap: 9% 0.01%;
-        margin-top: 50px;
-        transition: 1s;
-        }
+.all_about-me_description{
+    gap: 9% 0.01%;
+    margin-top: 50px;
+    transition: 1s;
+}
 
-
-          
-    .all_fotter_part{
-        padding-left: 10%;
-        transition: 1s;
-    }
+.all_fotter_part{
+    padding-left: 10%;
+    transition: 1s;
+}
 
 }
 
-
-
 @media (max-width: 801px) {
 
+.main_page{
+    height: 600px;
+    background-size: 147%;
+    transition: 1s;
+}
 
-    .main_page{
-        height: 600px;
-        background-size: 147%;
-    }
+.text_left{
+    margin-top: 0;
+    transition: 1s;
+}
 
-    .text_left{
-        margin-top: 0;
-    }
+.name_and_links{
+    margin-left: 30px;
+    transition: 1s;
+}
 
-    .name_and_links{
-        margin-left: 30px;
-    }
-
-    .name{
-        font-size: 3.5em;
-        transition: 1s;
-    }
+.name{
+    font-size: 3.5em;
+    transition: 1s;
+}
     
-    .vedyschi{
-        font-size: 1.4em;
-        transition: 1s;
-    }
+.vedyschi{
+    font-size: 1.4em;
+    transition: 1s;
+}
     
-    .line{
-        margin: 2.2% 2.7% 0 2.7%;
-        width: 0.13em;
-        height: 0.8em;
-        transition: 1s;
-    }
+.line{
+    margin: 2.2% 2.7% 0 2.7%;
+    width: 0.13em;
+    height: 0.8em;
+    transition: 1s;
+}
     
-    .gift{
-        font-size: 15px;
-        transition: 1s;
-    }
+.gift{
+    font-size: 15px;
+    transition: 1s;
+}
     
-    .link{
-        width: 50%;
-        transition: 1s;
-    }
+.link{
+    width: 50%;
+    transition: 1s;
+}
 
-    .like_img{
-        width: 5%;
-        height: 5%;
-    }
+.like_img{
+    width: 5%;
+    height: 5%;
+    transition: 1s;
+}
 
-    .like_description{
-        font-size: 17px;
-    }
-    .like_description2{
-        font-size: 17px;
-    }
+.like_description{
+    font-size: 17px;
+    transition: 1s;
+}
+
+.like_description2{
+    font-size: 17px;
+    transition: 1s;
+}
 
 .cosial_media{
     margin-top: 75px;
@@ -764,6 +782,7 @@ a {
 
 .video_text{
     width: 560px;
+    transition: 1s;
 }
 
 .foto_and_about-me{
@@ -795,24 +814,24 @@ a {
     gap: 3% 0.01%;
     margin-top: 20px;
     transition: 1s;
-    }
+}
 
-    .all_fotter_part{
-        flex-direction: column;
-        padding-left: 0;
-        transition: 1s;
-    }
+.all_fotter_part{
+    flex-direction: column;
+    padding-left: 0;
+    transition: 1s;
+}
     
-    .first_part_footer{
-        margin-left: -1%;
-        transition: 1s;
-    }
+.first_part_footer{
+    margin-left: -1%;
+    transition: 1s;
+}
     
-    .cosial_media_fotter{
-        margin-left: 0;
-        margin-top: 20px;
-        transition: 1s;
-    }
+.cosial_media_fotter{
+    margin-left: 0;
+    margin-top: 20px;
+    transition: 1s;
+}
 
 }
 
@@ -829,10 +848,11 @@ a {
 
 @media (max-width: 641px) {
 
-    .main_page{
-        height: 480px;
-        background-size: 155%;
-    }
+.main_page{
+    height: 480px;
+    background-size: 155%;
+    transition: 1s;
+}
 
 .cosial_media{
     display: none;
@@ -843,8 +863,6 @@ a {
     font-size: 45px;
     transition: 1s;
 }
-
-
 
 .vedyschi{
     font-size: 1.4em;
@@ -880,6 +898,7 @@ a {
 
 .likes_two{
     margin-top: 5%;
+    transition: 1s;
 }
 
 .like_img{
@@ -896,12 +915,11 @@ a {
 .like_description2{
     font-size: 1em;
     transition: 1s;
-    }
+}
 
 .kavichki{
     width: 3%;
     transition: 1s;
-    
 }
 
 .foto_and_about-me{
@@ -913,12 +931,12 @@ a {
 
 .about_me{
     margin-top: 10px;
+    transition: 1s;
 }
 
 .right_about-me{
     margin-left: 30%;
     margin-top: 3%;
-    
     background: url('../websiteAZ/assets/images/black_foto-2.png') no-repeat;
     background-size: 100%;
     background-position: center;
@@ -956,10 +974,9 @@ a {
     transition: 1s;
 }
 
-
-
 .first_part_footer{
     margin-top: 10%;
+    transition: 1s;
 }
 
 .last_part{
@@ -970,19 +987,201 @@ a {
 
 }
 
-@media (max-width: 361px) {
-
-    .main_page{
-        height: 640px;
-        background-size: 115%;
-    }
-
+@media (max-width: 551px) {
 
 .main_page{
-    background: url('../websiteAZ/assets/images/720-800.jpg') no-repeat;
-    background-size: 140%;
+    height: 576px;
+    background-size: 115%; 
+    background-size: 250%;
+    transition: 1s;
 }
 
+.name{
+    font-size: 3em;
+    margin-top: 47%;
+    transition: 1s;
+} 
+
+.vedyschi{
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    transition: 1s;
+}
+
+.line{
+    max-height: 1em;
+    width: 0.1em;
+    height: 0.7em;
+    margin-top: 2.5%;
+    transition: 1s;
+}
+
+.phone{
+    font-size: 20px;
+    margin-top: 13%;
+    transition: 1s;
+}
+
+.gift{
+    font-size: 10px;
+    margin-left: 10px;
+    line-height: 16px;
+    width: 120px;
+    transition: 1s;
+}
+
+.gift_img{
+    margin-left: -11%;
+    transition: 1s;
+}
+
+.likes_two{
+    margin-top: 5%;
+    transition: 1s;
+}
+
+.like_img{
+    width: 6%;
+    height: 6%;
+    transition: 1s;
+}
+
+.like_description{
+    font-size: 1em;
+    transition: 1s;
+}
+
+.like_description2{
+    font-size: 1em;
+    transition: 1s;
+}
+
+.video{
+    font-size: 30px;
+    transition: 1s;
+}
+
+.kavichki{
+    width: 4%;
+    transition: 1s;
+}
+
+.video_text{
+    font-size: 10px;
+    width: 360px;
+    transition: 1s;
+}
+
+.video_prosmotr{
+    font-size: 20px;
+    transition: 1s;
+}
+
+.video_all_promo{
+    margin-right: 0;
+    margin-left: 80px;
+    transition: 1s;
+}
+
+.video_description{
+    margin-right: 0;
+    transition: 1s;
+}
+
+.video_promo{
+    padding-left: 0;
+    transition: 1s;
+}
+
+.about_me{
+    font-size: 30px;
+    transition: 1s;
+}
+
+.right_about-me{
+    margin-left: 24%;
+    transition: 1s;
+}
+
+.foto_and_about-me{
+    height: 1420px;
+    transition: 1s;
+}
+
+.first_part_footer{
+    margin-top: 10%;
+    transition: 1s;
+}
+
+.last_part{
+    margin-left: 15%;
+    margin-bottom: 10%;
+    transition: 1s;
+}
+
+}
+
+@media (max-width: 481px) {
+
+.name{
+    font-size: 2.7em;
+    margin-top: 47%;
+    transition: 1s;
+} 
+
+.video_all_promo{
+    margin-right: 0;
+    margin-left: 50px;
+    transition: 1s;
+}
+
+}
+
+@media (max-width: 431px) {
+
+.name{
+    font-size: 2.3em;
+    margin-top: 47%;
+    transition: 1s;
+} 
+    
+.video_all_promo{
+    margin-right: 0;
+    margin-left: 30px;
+    transition: 1s;
+}
+    
+.right_about-me{
+    margin-left: 17%;
+    transition: 1s;
+}
+
+}
+
+@media (max-width: 401px) {
+ 
+.video_all_promo{
+    margin-right: 0;
+    margin-left: 12px;
+    transition: 1s;
+}
+
+.main_page{
+    background-size: 260%;
+    transition: 1s;
+}
+
+    }
+
+@media (max-width: 361px) {
+
+.main_page{
+    height: 640px;
+    background-size: 115%; 
+    background: url('../websiteAZ/assets/images/720-800.jpg') no-repeat;
+    background-size: 140%;
+    transition: 1s;
+}
 
 .name{
     font-size: 3em;
@@ -1024,6 +1223,7 @@ a {
 
 .likes_two{
     margin-top: 30%;
+    transition: 1s;
 }
 
 .like_img{
@@ -1040,28 +1240,33 @@ a {
 .like_description2{
     font-size: 1em;
     transition: 1s;
-    }
+}
 
 .video{
     font-size: 30px;
+    transition: 1s;
 }
 
 .kavichki{
     width: 5%;
+    transition: 1s;
 }
 
 .video_text{
     font-size: 10px;
     width: 300px;
+    transition: 1s;
 }
 
 .video_prosmotr{
-    font-size: 20px
+    font-size: 20px;
+    transition: 1s;
 }
 
 .video_all_promo{
     margin-right: 0;
     margin-left: 0;
+    transition: 1s;
 }
 
 .video_description{
@@ -1073,9 +1278,6 @@ a {
     padding-left: 0;
     transition: 1s;
 }
-
-
-
 
 .first_video{
     display: none;
@@ -1097,14 +1299,14 @@ a {
     transition: 1s;
 }
 
-
-
 .about_me{
     font-size: 30px;
+    transition: 1s;
 }
 
 .right_about-me{
     margin-left: 13%;
+    transition: 1s;
 }
 
 .foto_and_about-me{
@@ -1114,6 +1316,7 @@ a {
 
 .first_part_footer{
     margin-top: 10%;
+    transition: 1s;
 }
 
 .last_part{
