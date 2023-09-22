@@ -835,8 +835,8 @@ a {
     transition: 1s;
 }
 .gift_img_footer{
-    margin-top: 0;
-    margin-left: 0;
+    margin-top: -30px;
+    margin-left: -15px;
     transition: 1s;
 }
 
@@ -904,7 +904,7 @@ a {
 
 .gift_img{
     margin-left: -25%;
-    margin-top: 30px;
+    margin-top: 45px;
     transition: 1s;
 }
 
@@ -937,12 +937,12 @@ a {
 .foto_and_about-me{
     margin-left: 0;
     padding-left: 0;
-   height: 1470px;
+   height: 1600px;
     transition: 1s;
 }
 
 .about_me{
-    margin-top: 10px;
+    margin-top: 22px;
     transition: 1s;
    
 }
@@ -961,7 +961,7 @@ a {
 }
 
 .under_foto-720{
-    padding-top: 165%;
+    padding-top: 500px;
     transition: 1s;
 }
 
@@ -978,7 +978,7 @@ a {
 }
 
 .dollar5{
-    width: 17%;
+    width: 15%;
     transition: 1s;
 }
 
@@ -1118,7 +1118,7 @@ a {
 }
 
 .foto_and_about-me{
-    height: 1470px;
+    height: 1570px;
     transition: 1s;
 }
 
@@ -1232,7 +1232,8 @@ a {
 }
 
 .gift_img{
-    margin-left: -11%;
+    margin-left: -36%;
+   margin-top: 90px;
     transition: 1s;
 }
 
@@ -1326,7 +1327,7 @@ a {
 }
 
 .foto_and_about-me{
-    height: 1470px;
+    height: 1560px;
     transition: 1s;
 }
 
@@ -1347,13 +1348,13 @@ a {
 }
 
 .gift_img_footer{
-    margin-top: 0;
-    margin-left: 0;
+    margin-top: -30px;
+    margin-left: -15px;
     transition: 1s;
 }
 
 .last_part{
-    margin-left: 6%;
+    margin-left: 13%;
     transition: 1s;
 }
 
