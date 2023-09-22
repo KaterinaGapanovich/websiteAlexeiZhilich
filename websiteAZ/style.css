@@ -391,7 +391,7 @@ a {
 }
 
 .black_foto{
-    width: 45%;
+    width: 35%;
     margin-left: -60px;
     transition: 1s;
 }
@@ -435,6 +435,10 @@ a {
 }
 
 @media (max-width: 1441px) {
+
+    .black_foto{
+        width: 45%;
+    }
 
 .main_page{
     height: 900px;
@@ -957,7 +961,7 @@ a {
 }
 
 .under_foto-720{
-    padding-top: 140%;
+    padding-top: 165%;
     transition: 1s;
 }
 
