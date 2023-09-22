@@ -1,3 +1,4 @@
+
 html{
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -127,7 +128,6 @@ body{
     font-family: Bookman Old Style;
     font-size: 1.25em;
     color: white;
-    
 }
 
 .cosial_media{
@@ -136,8 +136,6 @@ body{
     grid-template-rows: repeat(4, 1fr);
     row-gap: 5%;
     margin-top: 90%;
-    /*margin-left: -45%;
-    max-height: 30%;*/
     padding: 0;
 }
 
@@ -155,7 +153,7 @@ a {
   }
 
   /* секция видео */
-  
+
 .video_promo{
     padding-left: 7%;
     background: #292929;
@@ -223,6 +221,7 @@ a {
   .second_video-320{
     display: none;
   }
+
    /* секция обо мне */
 
    .foto_and_about-me{
@@ -892,7 +891,7 @@ a {
 
 .gift_img{
     margin-left: -25%;
-    margin-top: 55px;
+    margin-top: 40px;
     transition: 1s;
 }
 
@@ -925,18 +924,19 @@ a {
 .foto_and_about-me{
     margin-left: 0;
     padding-left: 0;
-    height: 1470px;
+    height: 1600px;
     transition: 1s;
 }
 
 .about_me{
     margin-top: 10px;
     transition: 1s;
+   
 }
 
 .right_about-me{
-    margin-left: 30%;
-    margin-top: 3%;
+    width: 360px;
+    margin: 3% auto ;
     background: url('../websiteAZ/assets/images/black_foto-2.png') no-repeat;
     background-size: 100%;
     background-position: center;
@@ -1099,12 +1099,14 @@ a {
 }
 
 .right_about-me{
-    margin-left: 24%;
+    width: 360px;
+    margin: 3% auto ;
+   
     transition: 1s;
 }
 
 .foto_and_about-me{
-    height: 1420px;
+    height: 1600px;
     transition: 1s;
 }
 
@@ -1152,7 +1154,8 @@ a {
 }
     
 .right_about-me{
-    margin-left: 17%;
+    width: 360px;
+    margin: 3% auto ;
     transition: 1s;
 }
 
@@ -1305,12 +1308,13 @@ a {
 }
 
 .right_about-me{
-    margin-left: 13%;
+    width: 360px;
+    margin: 3% auto ;
     transition: 1s;
 }
 
 .foto_and_about-me{
-    height: 1420px;
+    height: 1530px;
     transition: 1s;
 }
 
@@ -1322,6 +1326,22 @@ a {
 .last_part{
     margin-left: 15%;
     margin-bottom: 10%;
+    transition: 1s;
+}
+
+.vedyschi_and_fokysnic_footer{
+    font-size: 1em;
+    transition: 1s;
+}
+
+.gift_img_footer{
+    margin-top: 0;
+    margin-left: 0;
+    transition: 1s;
+}
+
+.last_part{
+    margin-left: 6%;
     transition: 1s;
 }
 
