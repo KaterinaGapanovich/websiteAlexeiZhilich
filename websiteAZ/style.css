@@ -155,26 +155,29 @@ a {
   /* секция видео */
 
 .video_promo{
-    padding-left: 7%;
+    min-width: 100%;
+    margin: 35px auto;
+    /*padding-left: 7%;*/
     background: #292929;
 }
 
   .video{
+    
     font-family: Montserrat;
     font-size: 2.8em;
     font-weight: 500;
     color: white;
     text-align: center;
-    padding-top: 3.3%;
-    margin: 0 8% 0 0;
+    /*margin: 0 8% 0 0;*/
+    margin: 0;
   }
 
   .video_description{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 1%;
-    margin-right: 8%;
+    margin-top: 15px;
+    /*margin-right: 8%;*/
   }
 
   .kavichki{
@@ -194,24 +197,25 @@ a {
     font-family: Montserrat;
     font-size: 1.6em;
     color: white;
-    text-align: center;
-    margin-left: 18%;
+    text-align: right;
+    margin-right: 23%;
   }
 
   .video_all_promo{
     display: flex;
     flex-direction: row;
+    gap: 35px;
     justify-content: center;
-    margin-top: 2%;
-    padding-bottom: 5%;
+    margin-top: 25px;
+    /*padding-bottom: 5%;*/
   }
 
   .first_video{
-    margin-right: 4%;
+    /*margin-right: 4%;*/
   }
 
   .second_video{
-    margin-right: 8%;
+    /*margin-right: 8%;*/
   }
 
   .first_video-320{
@@ -280,16 +284,17 @@ a {
 .all_fotter_part{
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 25px;
     justify-content: center;
     align-items: center;
-    padding-bottom: 2.3%;
-    padding-left: 5%;
+    /*padding-bottom: 2.3%;
+    padding-left: 5%;*/
     background: #292929;
+    margin: 35px 0;
 }
 
 .first_part_footer{
-    margin: 2.5% 0 0 -5%;
+    margin: 0 17px 0 0;
 }
 
 .name_footer{
@@ -318,13 +323,23 @@ a {
 }
 
 .cosial_media_fotter{
-    list-style-type: none;
+    
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    column-gap: 0.5%;
+    
+    /*column-gap: 3px;
     margin: 15% 0 0 15%;
-    width: 300px;
+    width: 300px;*/
+    margin: 0;
+    list-style-type: none;
+    
     padding: 0;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+    width: 60px;
 }
 
 .link_fotter{
@@ -332,16 +347,18 @@ a {
 }
 
 .last_part{
-    margin-top: 2.5%;
-    margin-left: 7%;
+    /*margin-top: 2.5%;
+    margin-left: 7%;*/
+    margin: 0;
 }
 
 .phone_footer{
     font-size: 26px;
     font-weight: 400;
     color: white;
-    margin-bottom: 5px;
-    margin-top: 27px;
+    /*margin-bottom: 5px;
+    margin-top: 27px;*/
+    margin: 0;
 }
 
 .phone_footer:hover{
@@ -352,28 +369,32 @@ a {
 .text_under_phone_footer{
     display: flex;
     flex-direction: row;
+    gap: 10px;
+    position: relative;
 }
 
 .phone_img_footer{
     width: 10%;
     height: 12%;
-    margin-left: -15px;
+    margin-top: 5px;
+    /*margin-left: -15px;*/
 }
 
 .gift_footer{
     font-family: Montserrat;
     font-size: 8px;
     font-weight: 100;
-    margin-left: 15px;
+    /*margin-left: 15px;*/
     letter-spacing: 0.05em;
     color: white;
 }
 
 .gift_img_footer{
-    width: 12%;
-    height: 12%;
-    margin-top: -30px;
-    margin-left: -20px;
+    position: absolute;
+    bottom: 30px; 
+    left: 230px;
+    /*margin-top: -30px;
+    margin-left: -20px;*/
 }
 
 /* начало работы с медиа квери*/
@@ -432,6 +453,17 @@ a {
     transition: 1s;
 }
 
+.video_prosmotr{
+    margin-right: 32%;
+    transition: 1s;
+}}
+
+
+@media (max-width: 1600px){
+    .video_prosmotr{
+        margin-right: 28.5%;
+        transition: 1s;
+    }
 }
 
 @media (max-width: 1441px) {
@@ -458,6 +490,11 @@ a {
 
 .video_text{
     font-size: 23px;
+    transition: 1s;
+}
+
+.video_prosmotr{
+    margin-right: 23%;
     transition: 1s;
 }
 
@@ -498,7 +535,7 @@ a {
 }
 
 .all_fotter_part{
-    padding-left: 10%;
+    /*padding-left: 10%;*/
     transition: 1s;
 }
 
@@ -552,6 +589,11 @@ a {
     transition: 1s;
 }
 
+.video_prosmotr{
+    margin-right: 19%;
+    transition: 1s;
+}
+
 .kavichki{
     width: 2%;
     height: 2%;
@@ -594,10 +636,7 @@ a {
     transition: 1s;
 }
 
-.all_fotter_part{
-    padding-left: 10%;
-    transition: 1s;
-}
+
 
 }
 
@@ -660,6 +699,11 @@ a {
     transition: 1s;
 }
 
+.video_prosmotr{
+    margin-right: 11.5%;
+    transition: 1s;
+}
+
 .kavichki{
     width: 2.5%;
     transition: 1s;
@@ -709,10 +753,7 @@ a {
     transition: 1s;
 }
 
-.all_fotter_part{
-    padding-left: 10%;
-    transition: 1s;
-}
+
 
 }
 
@@ -784,7 +825,12 @@ a {
 }
 
 .video_text{
-    width: 560px;
+    width: 470px;
+    transition: 1s;
+}
+
+.video_prosmotr{
+    margin-right: 19.5%;
     transition: 1s;
 }
 
@@ -820,11 +866,11 @@ a {
 
 .all_fotter_part{
     flex-direction: column;
-    padding-left: 0;
+    gap: 30px;
     transition: 1s;
 }
     
-.first_part_footer{
+/*.first_part_footer{
     margin-left: -1%;
     transition: 1s;
 }
@@ -843,7 +889,7 @@ a {
 .last_part{
     margin-left: 6%;
     transition: 1s;
-}
+}*/
 
 }
 
@@ -852,7 +898,8 @@ a {
 .video_all_promo{
     flex-direction: column;
     gap: 25px;
-    margin-left: 20%;
+    /*margin-left: 20%;*/
+    align-items: center;
     transition: 1s;
 }
 
@@ -929,6 +976,11 @@ a {
     transition: 1s;
 }
 
+.video_prosmotr{
+    margin-right: 12%;
+    transition: 1s;
+}
+
 .kavichki{
     width: 3%;
     transition: 1s;
@@ -982,7 +1034,7 @@ a {
     transition: 1s;
 }
 
-.all_fotter_part{
+/*.all_fotter_part{
     margin-top: -15%;
     transition: 1s;
 }
@@ -996,7 +1048,7 @@ a {
     margin-left: 15%;
     margin-bottom: 10%;
     transition: 1s;
-}
+}*/
 
 }
 
@@ -1080,23 +1132,24 @@ a {
 }
 
 .video_text{
-    font-size: 10px;
+    font-size: 18px;
     width: 360px;
     transition: 1s;
 }
 
 .video_prosmotr{
     font-size: 20px;
-    transition: 1s;
+            margin-right: 20%;
+         transition: 1s;
 }
 
 .video_all_promo{
-    margin-right: 0;
-    margin-left: 80px;
+    /*margin-right: 0;
+    margin-left: 80px;*/
     transition: 1s;
 }
 
-.video_description{
+/*.video_description{
     margin-right: 0;
     transition: 1s;
 }
@@ -1104,7 +1157,7 @@ a {
 .video_promo{
     padding-left: 0;
     transition: 1s;
-}
+}*/
 
 .about_me{
     font-size: 30px;
@@ -1122,7 +1175,7 @@ a {
     transition: 1s;
 }
 
-.first_part_footer{
+/*.first_part_footer{
     margin-top: 10%;
     transition: 1s;
 }
@@ -1131,7 +1184,7 @@ a {
     margin-left: 15%;
     margin-bottom: 10%;
     transition: 1s;
-}
+}*/
 
 }
 
@@ -1143,12 +1196,23 @@ a {
     transition: 1s;
 } 
 
-.video_all_promo{
+ /*.video_all_promo{
     margin-right: 0;
-    margin-left: 50px;
+   margin-left: 50px;
     transition: 1s;
+}*/
+
+.video_prosmotr{
+    margin-right: 15%;
 }
 
+.cosial_media_fotter{
+    gap: 5px;
+}
+
+.link_fotter{
+    width: 68%;
+}
 }
 
 @media (max-width: 431px) {
@@ -1159,10 +1223,8 @@ a {
     transition: 1s;
 } 
     
-.video_all_promo{
-    margin-right: 0;
-    margin-left: 30px;
-    transition: 1s;
+.video_prosmotr{
+    margin-right: 13%;
 }
     
 .right_about-me{
@@ -1175,18 +1237,19 @@ a {
 
 @media (max-width: 401px) {
  
-.video_all_promo{
-    margin-right: 0;
-    margin-left: 12px;
-    transition: 1s;
-}
+
 
 .main_page{
     background-size: 260%;
     transition: 1s;
 }
 
+.cosial_media_fotter{
+        grid-template-columns: repeat(3, 2fr);
+        gap: 15px 0;
+        transition: 1s;
     }
+}
 
 @media (max-width: 361px) {
 
@@ -1270,12 +1333,14 @@ a {
 
 .video_text{
     font-size: 10px;
-    width: 300px;
+    width: 290px;
     transition: 1s;
 }
 
 .video_prosmotr{
+    
     font-size: 20px;
+    margin-right: 8%;
     transition: 1s;
 }
 
@@ -1305,13 +1370,13 @@ a {
 
 .first_video-320{
     display: block;
-    margin-left: 17px;
+    /*margin-left: 17px;*/
     transition: 1s;
 }
 
 .second_video-320{
     display: block;
-    margin-left: 17px;
+    /*margin-left: 17px;*/
     transition: 1s;
 }
 
@@ -1331,7 +1396,12 @@ a {
     transition: 1s;
 }
 
-.first_part_footer{
+.link_fotter{
+    width: 60%;
+    transition: 1s;
+}
+
+/*.first_part_footer{
     margin-top: 10%;
     transition: 1s;
 }
@@ -1356,6 +1426,6 @@ a {
 .last_part{
     margin-left: 13%;
     transition: 1s;
-}
+}*/
 
 }
