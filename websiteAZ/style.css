@@ -9,6 +9,13 @@ html{
     box-sizing: inherit;
 }
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
 body{
     width: 100%;
     font-family: Montserrat;
@@ -17,32 +24,31 @@ body{
 }
 
 .main_page{
+    min-width: 100%;
+    height: 100vh;
+    margin: 0 auto;
     background: url('../websiteAZ/assets/images/new-foto-backgr.jpg') no-repeat;
-    background-size: 115%;
+    background-size: cover;
     background-position: top;
-    padding-left: 4%;
-    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .name_and_links{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 0 17.5%;
-}
-
-.text_left{
-   margin-bottom: 5.9%;
+   margin-top: 150px;
+    gap: 450px;
 }
 
 .name{
     font-family: Montserrat;
     font-size: 4.13em;
     font-weight: 700;
-    margin-top: 30%;
     letter-spacing: 0.06em;
     line-height: 1em;
-    margin-bottom: 2%;
+    margin: 0;
 }
 
 .vedyschi_and_fokysnic{
@@ -135,16 +141,15 @@ body{
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     row-gap: 5%;
-    margin-top: 90%;
-    padding: 0;
+    margin: 0;
 }
 
 .link{
-    width: 70%;
+    width: 90%;
 }
 
 .link:hover{
-   width: 85%;
+   width: 105%;
    transition: 1s;
 }
 
@@ -157,18 +162,15 @@ a {
 .video_promo{
     min-width: 100%;
     margin: 35px auto;
-    /*padding-left: 7%;*/
     background: #292929;
 }
 
   .video{
-    
     font-family: Montserrat;
     font-size: 2.8em;
     font-weight: 500;
     color: white;
     text-align: center;
-    /*margin: 0 8% 0 0;*/
     margin: 0;
   }
 
@@ -177,7 +179,6 @@ a {
     flex-direction: row;
     justify-content: center;
     margin-top: 15px;
-    /*margin-right: 8%;*/
   }
 
   .kavichki{
@@ -207,15 +208,6 @@ a {
     gap: 35px;
     justify-content: center;
     margin-top: 25px;
-    /*padding-bottom: 5%;*/
-  }
-
-  .first_video{
-    /*margin-right: 4%;*/
-  }
-
-  .second_video{
-    /*margin-right: 8%;*/
   }
 
   .first_video-320{
@@ -228,18 +220,22 @@ a {
 
    /* секция обо мне */
 
+
    .foto_and_about-me{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     background-color: #AEAFB3;
-    padding-left: 4%;
-    height: 900px;
+    min-width: 100%;
+    height: 100vh;
+    margin: 0 auto;
    }
 
    .black_foto{
-    width: 50%;
-    height: 100%;
-    margin-left: 13%;
+    width:auto;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
    }
 
    .black_foto-720{
@@ -247,8 +243,9 @@ a {
    }
 
    .right_about-me{
-    margin-right: 0;
-    margin-left: -4%;
+    align-items: center;
+    margin: auto 0;
+    z-index: 2;  
    }
 
    .about_me{
@@ -257,10 +254,15 @@ a {
     letter-spacing: 0.01em;
    }
 
+   .about_me_h2{
+    margin: 0;
+   }
+
    .all_about-me_description{
     display: grid;
     grid-template-columns: repeat(2, 4fr);
-    gap: 2% 0.01%;
+    gap: 35px 20px;
+    margin-top: 25px;
    }
 
    .numbers{
@@ -287,8 +289,6 @@ a {
     gap: 25px;
     justify-content: center;
     align-items: center;
-    /*padding-bottom: 2.3%;
-    padding-left: 5%;*/
     background: #292929;
     margin: 35px 0;
 }
@@ -326,13 +326,8 @@ a {
     
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    
-    /*column-gap: 3px;
-    margin: 15% 0 0 15%;
-    width: 300px;*/
     margin: 0;
     list-style-type: none;
-    
     padding: 0;
 }
 
@@ -347,8 +342,6 @@ li{
 }
 
 .last_part{
-    /*margin-top: 2.5%;
-    margin-left: 7%;*/
     margin: 0;
 }
 
@@ -356,8 +349,6 @@ li{
     font-size: 26px;
     font-weight: 400;
     color: white;
-    /*margin-bottom: 5px;
-    margin-top: 27px;*/
     margin: 0;
 }
 
@@ -377,14 +368,12 @@ li{
     width: 10%;
     height: 12%;
     margin-top: 5px;
-    /*margin-left: -15px;*/
 }
 
 .gift_footer{
     font-family: Montserrat;
     font-size: 8px;
     font-weight: 100;
-    /*margin-left: 15px;*/
     letter-spacing: 0.05em;
     color: white;
 }
@@ -393,38 +382,28 @@ li{
     position: absolute;
     bottom: 30px; 
     left: 230px;
-    /*margin-top: -30px;
-    margin-left: -20px;*/
+}
+
+.for_image_footer2{
+    margin: -25px 0 0 -8px;
 }
 
 /* начало работы с медиа квери*/
 
 @media (max-width: 1921px) {
-.main_page{
-    height: 768px;
-    background-size: 100%;
+
+.cosial_media{
+    margin-top: -100px;
     transition: 1s;
 }
 
 .foto_and_about-me{
-    height: 768px;
-    transition: 1s;
-}
-
-.black_foto{
-    width: 35%;
-    margin-left: -60px;
+    margin:0;
     transition: 1s;
 }
 
 .about_me{
-    margin-top: 50px;
-    margin-bottom: 60px;
-    transition: 1s;
-}
-
-.right_about-me {
-    margin-left: 50px;
+    margin: 0 auto;
     transition: 1s;
 }
     
@@ -444,12 +423,7 @@ li{
 }
         
 .all_about-me_description{
-    gap: 9% 3%;
-    transition: 1s;
-}
-    
-.text_about-me{
-    font-size: 17px;
+    gap: 70px 15px;
     transition: 1s;
 }
 
@@ -460,33 +434,20 @@ li{
 
 
 @media (max-width: 1600px){
+
     .video_prosmotr{
         margin-right: 28.5%;
         transition: 1s;
     }
+
+    .all_about-me_description{
+        gap: 70px 15px;
+       transition: 1s;
+    }
+
 }
 
 @media (max-width: 1441px) {
-
-    .black_foto{
-        width: 45%;
-    }
-
-.main_page{
-    height: 900px;
-    background-size: 115%;
-    transition: 1s;
-}
-
-.text_left{
-    margin-top: 100px;
-    transition: 1s;
-}
-
-.cosial_media{
-    margin-top: 150px;
-    transition: 1s;
-}
 
 .video_text{
     font-size: 23px;
@@ -498,19 +459,8 @@ li{
     transition: 1s;
 }
 
-.foto_and_about-me{
-    height: 900px;
-    transition: 1s;
-}
-
-.right_about-me {
-    margin-right: 0;
-    margin-left: -40px;
-    transition: 1s;
-}
-
 .all_about-me_description{
-   gap: 10% 1%;
+    gap: 70px 15px;
    transition: 1s;
 }
 
@@ -534,28 +484,12 @@ li{
     transition: 1s;
 }
 
-.all_fotter_part{
-    /*padding-left: 10%;*/
-    transition: 1s;
-}
-
 }
 
 @media (max-width: 1281px) {
-
-.main_page{
-    height: 768px;
-    background-size: 115%;
-    transition: 1s;
-}
-
-.text_left{
-    margin-top: 70px;
-    transition: 1s;
-}
     
 .cosial_media{
-    margin-top: 110px;
+    margin-top: -150px;
     transition: 1s;
 }
 
@@ -605,20 +539,9 @@ li{
     transition: 1s;
 }
 
-.foto_and_about-me{
-    height: 768px;
-    transition: 1s;
-}
-
-.about_me{
-    margin: 50px 0;
-    transition: 1s;
-}
-
-.right_about-me {
-    margin-right: 0;
-    margin-left: -30px;
-    transition: 1s;
+.all_about-me_description{
+    gap: 78px 15px;
+   transition: 1s;
 }
 
 .numbers{
@@ -636,31 +559,40 @@ li{
     transition: 1s;
 }
 
+}
 
+@media (max-width: 1155px) {
+    
+.right_about-me{
+    margin-left: -130px;
+    transition: 1s;
+}
 
+.all_about-me_description{
+    gap: 71px 15px;
+   transition: 1s;
+}
+    
+.numbers{
+    font-size: 1.3em;
+    transition: 1s;
+}
+    
+.dollar5{
+    width: 22%;
+    transition: 1s;
+}
+    
+.text_about-me{
+    font-size: 17px;
+    transition: 1s;
+}
 }
 
 @media (max-width: 1025px) {
 
-.main_page{
-    height: 768px;
-    background-size: 137%;
-    transition: 1s;
-}
-
 .name_and_links{
-    margin-left: 100px;
-    transition: 1s;
-}
-
-.text_left{
-    margin-top: 70px;
-    transition: 1s;
-}
-    
-.cosial_media{
-    margin-top: 110px;
-    margin-right: -50px;
+    gap: 335px;
     transition: 1s;
 }
 
@@ -709,27 +641,14 @@ li{
     transition: 1s;
 }
 
-.black_foto{
-    width: 60%;
-    margin-left: -40px;
+.right_about-me{
+    margin-left: -130px;
     transition: 1s;
 }
 
-.foto_and_about-me{
-    height: 768px;
-    transition: 1s;
-}
-
-.about_me{
-    margin-top: 50px;
-    margin-bottom: 0;
-    transition: 1s;
-}
-
-.right_about-me {
-    margin-right: 0;
-    margin-left: -200px;
-    transition: 1s;
+.all_about-me_description{
+    gap: 74px 15px;
+   transition: 1s;
 }
     
 .numbers{
@@ -746,32 +665,38 @@ li{
     font-size: 17px;
     transition: 1s;
 }
+
+}
+
+@media (max-width: 959px) {
+
+    .text_about-me{
+        font-size: 11px;
+        transition: 1s;
+    }
     
-.all_about-me_description{
-    gap: 9% 0.01%;
-    margin-top: 50px;
-    transition: 1s;
+    .right_about-me{
+        margin-left: -175px;
+        transition: 1s;
+    }
+    
+    .all_about-me_description{
+        gap: 55px 10px;
+        transition: 1s;
+    }
+    
+    .all_fotter_part{
+        flex-direction: column;
+        gap: 30px;
+        transition: 1s;
+    }
 }
 
-
-
-}
-
-@media (max-width: 801px) {
-
-.main_page{
-    height: 600px;
-    background-size: 147%;
-    transition: 1s;
-}
-
-.text_left{
-    margin-top: 0;
-    transition: 1s;
-}
+@media (max-width: 819px) {
 
 .name_and_links{
-    margin-left: 30px;
+    gap: 190px;
+    margin-top: 70px;
     transition: 1s;
 }
 
@@ -819,8 +744,7 @@ li{
 }
 
 .cosial_media{
-    margin-top: 75px;
-    margin-right: -75px;
+    margin-top: -30px;
     transition: 1s;
 }
 
@@ -834,33 +758,18 @@ li{
     transition: 1s;
 }
 
-.foto_and_about-me{
-    margin-left: 0;
-    padding-left: 0;
-    height: 600px;
-    transition: 1s;
-}
-
-.black_foto{
-    width: 55%;
-    margin-left: 0;
-    transition: 1s;
-}
-
-.right_about-me{
-    margin-right: 0;
-    margin-left: -25%;
-    transition: 1s;
-}
-
 .text_about-me{
     font-size: 11px;
     transition: 1s;
 }
 
+.right_about-me{
+    margin-left: -175px;
+    transition: 1s;
+}
+
 .all_about-me_description{
-    gap: 3% 0.01%;
-    margin-top: 20px;
+    gap: 10px 10px;
     transition: 1s;
 }
 
@@ -869,27 +778,6 @@ li{
     gap: 30px;
     transition: 1s;
 }
-    
-/*.first_part_footer{
-    margin-left: -1%;
-    transition: 1s;
-}
-    
-.cosial_media_fotter{
-    margin-left: 0;
-    margin-top: 20px;
-    transition: 1s;
-}
-.gift_img_footer{
-    margin-top: -30px;
-    margin-left: -15px;
-    transition: 1s;
-}
-
-.last_part{
-    margin-left: 6%;
-    transition: 1s;
-}*/
 
 }
 
@@ -898,7 +786,6 @@ li{
 .video_all_promo{
     flex-direction: column;
     gap: 25px;
-    /*margin-left: 20%;*/
     align-items: center;
     transition: 1s;
 }
@@ -907,9 +794,8 @@ li{
 
 @media (max-width: 641px) {
 
-.main_page{
-    height: 480px;
-    background-size: 155%;
+.name_and_links{
+    margin-left: 30px;
     transition: 1s;
 }
 
@@ -918,7 +804,6 @@ li{
 }
 
 .name{
-    margin-top: 15%;
     font-size: 45px;
     transition: 1s;
 }
@@ -989,14 +874,18 @@ li{
 .foto_and_about-me{
     margin-left: 0;
     padding-left: 0;
-   height: 1600px;
+  height: 1375px;
     transition: 1s;
 }
 
 .about_me{
     margin-top: 22px;
     transition: 1s;
-   
+}
+
+.about_me_h2{
+    margin-top: 35px;
+    transition: 1s;
 }
 
 .right_about-me{
@@ -1004,7 +893,7 @@ li{
     margin: 0 auto ;
     background: url('../websiteAZ/assets/images/black_foto-2.png') no-repeat;
     background-size: 100%;
-    background-position: center;
+    background-position: right 0 bottom 39%;
     transition: 1s;
 }
 
@@ -1013,7 +902,7 @@ li{
 }
 
 .under_foto-720{
-    padding-top: 500px;
+    margin-top: 400px;
     transition: 1s;
 }
 
@@ -1034,36 +923,12 @@ li{
     transition: 1s;
 }
 
-/*.all_fotter_part{
-    margin-top: -15%;
-    transition: 1s;
-}
-
-.first_part_footer{
-    margin-top: 10%;
-    transition: 1s;
-}
-
-.last_part{
-    margin-left: 15%;
-    margin-bottom: 10%;
-    transition: 1s;
-}*/
-
 }
 
 @media (max-width: 551px) {
 
-.main_page{
-    height: 576px;
-    background-size: 115%; 
-    background-size: 250%;
-    transition: 1s;
-}
-
 .name{
     font-size: 3em;
-    margin-top: 47%;
     transition: 1s;
 } 
 
@@ -1139,52 +1004,9 @@ li{
 
 .video_prosmotr{
     font-size: 20px;
-            margin-right: 20%;
-         transition: 1s;
-}
-
-.video_all_promo{
-    /*margin-right: 0;
-    margin-left: 80px;*/
+    margin-right: 20%;
     transition: 1s;
 }
-
-/*.video_description{
-    margin-right: 0;
-    transition: 1s;
-}
-
-.video_promo{
-    padding-left: 0;
-    transition: 1s;
-}*/
-
-.about_me{
-    font-size: 30px;
-    transition: 1s;
-}
-
-.right_about-me{
-    width: 360px;
-    margin: 3% auto ;
-    transition: 1s;
-}
-
-.foto_and_about-me{
-    height: 1570px;
-    transition: 1s;
-}
-
-/*.first_part_footer{
-    margin-top: 10%;
-    transition: 1s;
-}
-
-.last_part{
-    margin-left: 15%;
-    margin-bottom: 10%;
-    transition: 1s;
-}*/
 
 }
 
@@ -1192,15 +1014,8 @@ li{
 
 .name{
     font-size: 2.7em;
-    margin-top: 47%;
     transition: 1s;
 } 
-
- /*.video_all_promo{
-    margin-right: 0;
-   margin-left: 50px;
-    transition: 1s;
-}*/
 
 .video_prosmotr{
     margin-right: 15%;
@@ -1208,10 +1023,12 @@ li{
 
 .cosial_media_fotter{
     gap: 5px;
+    transition: 1s;
 }
 
 .link_fotter{
     width: 68%;
+    transition: 1s;
 }
 }
 
@@ -1219,12 +1036,12 @@ li{
 
 .name{
     font-size: 2.3em;
-    margin-top: 47%;
     transition: 1s;
 } 
     
 .video_prosmotr{
     margin-right: 13%;
+    transition: 1s;
 }
     
 .right_about-me{
@@ -1236,13 +1053,6 @@ li{
 }
 
 @media (max-width: 401px) {
- 
-
-
-.main_page{
-    background-size: 260%;
-    transition: 1s;
-}
 
 .cosial_media_fotter{
         grid-template-columns: repeat(3, 2fr);
@@ -1254,16 +1064,20 @@ li{
 @media (max-width: 361px) {
 
 .main_page{
-    height: 640px;
-    background-size: 115%; 
     background: url('../websiteAZ/assets/images/720-800.jpg') no-repeat;
-    background-size: 140%;
+    background-size: 155%;
+    transition: 1s;
+}
+
+.name_and_links{
+    gap: 0;
+    margin-top: 25px;
     transition: 1s;
 }
 
 .name{
     font-size: 3em;
-    margin-top: 47%;
+    margin-top: 0;
     transition: 1s;
 } 
 
@@ -1283,7 +1097,7 @@ li{
 
 .phone{
     font-size: 15px;
-    margin-top: 13%;
+    margin-top: 5%;
     transition: 1s;
 }
 
@@ -1301,7 +1115,7 @@ li{
 }
 
 .likes_two{
-    margin-top: 30%;
+    margin-top: 25%;
     transition: 1s;
 }
 
@@ -1370,29 +1184,11 @@ li{
 
 .first_video-320{
     display: block;
-    /*margin-left: 17px;*/
     transition: 1s;
 }
 
 .second_video-320{
     display: block;
-    /*margin-left: 17px;*/
-    transition: 1s;
-}
-
-.about_me{
-    font-size: 30px;
-    transition: 1s;
-}
-
-.right_about-me{
-    width: 360px;
-    margin: 3% auto ;
-    transition: 1s;
-}
-
-.foto_and_about-me{
-    height: 1560px;
     transition: 1s;
 }
 
@@ -1400,32 +1196,5 @@ li{
     width: 60%;
     transition: 1s;
 }
-
-/*.first_part_footer{
-    margin-top: 10%;
-    transition: 1s;
-}
-
-.last_part{
-    margin-left: 15%;
-    margin-bottom: 10%;
-    transition: 1s;
-}
-
-.vedyschi_and_fokysnic_footer{
-    font-size: 1em;
-    transition: 1s;
-}
-
-.gift_img_footer{
-    margin-top: -30px;
-    margin-left: -15px;
-    transition: 1s;
-}
-
-.last_part{
-    margin-left: 13%;
-    transition: 1s;
-}*/
 
 }
