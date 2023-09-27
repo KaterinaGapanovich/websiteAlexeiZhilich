@@ -57,7 +57,7 @@ body{
 }
 
 .vedyschi{
-    font-family: Bookman Old Style;
+    font-family: Libre Baskerville;
     font-size: 2.19em;
     letter-spacing: -0.01em;
 }
@@ -123,7 +123,7 @@ body{
 
 .like_description{
     margin-left: 4%;
-    font-family: Bookman Old Style;
+    font-family: Libre Baskerville;
     font-size: 1.25em;
     color: white;
     margin-bottom: 2.5%;
@@ -131,7 +131,7 @@ body{
 
 .like_description2{
     margin-left: 4%;
-    font-family: Bookman Old Style;
+    font-family: Libre Baskerville;
     font-size: 1.25em;
     color: white;
 }
@@ -188,7 +188,7 @@ a {
   }
 
   .video_text{
-    font-family: Bookman Old Style;
+    font-family: Libre Baskerville;
     font-size: 1.25em;
     letter-spacing: 0.02em;
     color: white;
@@ -273,7 +273,7 @@ a {
    }
 
    .text_about-me{
-    font-family: Bookman Old Style;
+    font-family: Libre Baskerville;
     font-size: 0.3em;
    }
 
@@ -710,6 +710,10 @@ li{
         gap: 30px;
         transition: 1s;
     }
+
+    .first_part_footer{
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 821px) {
@@ -810,11 +814,13 @@ li{
 
     .name_and_links{
         gap: 0;
+           margin-left: -25px;    
         transition: 1s;
     }
 
   .gift{
     margin-left: 10px;
+    transition: 1s;
   }
 
 .video_all_promo{
@@ -830,14 +836,20 @@ li{
 
     .main_page{
         padding-left: 80px;
+        transition: 1s;
     }
+
+.name_and_links{
+    margin-left: -25px;
+    transition: 1s;
+}
 
 .cosial_media{
     display: none;
 }
 
 .name{
-    font-size: 45px;
+    font-size: 50px;
     transition: 1s;
 }
 
@@ -857,7 +869,7 @@ li{
 
 .phone{
     font-size: 1.3em;
-    margin-top: 5%;
+    margin-top: 10%;
     transition: 1s;
 }
 
@@ -874,7 +886,7 @@ li{
 }
 
 .likes_two{
-    margin-top: 15%;
+    margin-top: 20%;
     transition: 1s;
 }
 
@@ -1057,7 +1069,7 @@ li{
 @media (max-width: 481px) {
 
 .name{
-    font-size: 2.7em;
+    font-size: 3em;
     transition: 1s;
 } 
 
@@ -1080,7 +1092,7 @@ li{
 
 
 .name{
-    font-size: 2.3em;
+    font-size: 3em;
     transition: 1s;
 } 
     
