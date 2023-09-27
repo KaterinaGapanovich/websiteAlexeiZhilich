@@ -1,3 +1,13 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
 
 html{
     box-sizing: border-box;
@@ -5,16 +15,6 @@ html{
     overflow-x: hidden;
     width:100%;
 }
-*,*::before, *::after{
-    box-sizing: inherit;
-}
-
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-  }
 
 body{
     width: 100%;
@@ -392,6 +392,16 @@ li{
 
 @media (max-width: 1921px) {
 
+    .like_description{
+        font-size: 24px;
+        transition: 1s;
+    }
+    
+    .like_description2{
+        font-size: 24px;
+        transition: 1s;
+    }
+
 .cosial_media{
     margin-top: -100px;
     transition: 1s;
@@ -563,6 +573,11 @@ li{
 
 @media (max-width: 1155px) {
     
+    .name_and_links{
+        gap: 350px;
+        transition: 1s;
+    }
+
 .right_about-me{
     margin-left: -130px;
     transition: 1s;
@@ -592,7 +607,7 @@ li{
 @media (max-width: 1025px) {
 
 .name_and_links{
-    gap: 335px;
+    gap: 300px;
     transition: 1s;
 }
 
@@ -670,6 +685,11 @@ li{
 
 @media (max-width: 959px) {
 
+    .name_and_links{
+        gap: 210px;
+        transition: 1s;
+    }
+
     .text_about-me{
         font-size: 11px;
         transition: 1s;
@@ -692,10 +712,10 @@ li{
     }
 }
 
-@media (max-width: 819px) {
+@media (max-width: 821px) {
 
 .name_and_links{
-    gap: 190px;
+    gap: 210px;
     margin-top: 70px;
     transition: 1s;
 }
@@ -718,6 +738,7 @@ li{
 }
     
 .gift{
+    width: 200px;
     font-size: 15px;
     transition: 1s;
 }
@@ -744,8 +765,7 @@ li{
 }
 
 .cosial_media{
-    margin-top: -30px;
-    transition: 1s;
+    display: none;
 }
 
 .video_text{
@@ -783,6 +803,20 @@ li{
 
 @media (max-width: 783px) {
 
+.main_page{
+    justify-content: left;
+    padding-left: 100px;
+}
+
+    .name_and_links{
+        gap: 0;
+        transition: 1s;
+    }
+
+  .gift{
+    margin-left: 10px;
+  }
+
 .video_all_promo{
     flex-direction: column;
     gap: 25px;
@@ -794,10 +828,9 @@ li{
 
 @media (max-width: 641px) {
 
-.name_and_links{
-    margin-left: 30px;
-    transition: 1s;
-}
+    .main_page{
+        padding-left: 80px;
+    }
 
 .cosial_media{
     display: none;
@@ -841,7 +874,7 @@ li{
 }
 
 .likes_two{
-    margin-top: 5%;
+    margin-top: 15%;
     transition: 1s;
 }
 
@@ -874,7 +907,9 @@ li{
 .foto_and_about-me{
     margin-left: 0;
     padding-left: 0;
-  height: 1375px;
+  /*height: 1375px;*/
+  height: auto;
+  min-height: 1375px;
     transition: 1s;
 }
 
@@ -927,6 +962,13 @@ li{
 
 @media (max-width: 551px) {
 
+    .main_page{
+          background: url('../websiteAZ/assets/images/720-800.jpg') no-repeat;
+        background-size: cover;
+        padding-left: 50px;
+        transition: 1s;
+    }
+
 .name{
     font-size: 3em;
     transition: 1s;
@@ -966,7 +1008,7 @@ li{
 }
 
 .likes_two{
-    margin-top: 5%;
+    margin-top: 15%;
     transition: 1s;
 }
 
@@ -1034,6 +1076,7 @@ li{
 
 @media (max-width: 431px) {
 
+
 .name{
     font-size: 2.3em;
     transition: 1s;
@@ -1053,6 +1096,11 @@ li{
 }
 
 @media (max-width: 401px) {
+    .main_page{
+        background: url('../websiteAZ/assets/images/720-800-400.jpg') no-repeat;
+        background-size: cover;
+        transition: 1s;
+    }
 
 .cosial_media_fotter{
         grid-template-columns: repeat(3, 2fr);
@@ -1064,8 +1112,8 @@ li{
 @media (max-width: 361px) {
 
 .main_page{
-    background: url('../websiteAZ/assets/images/720-800.jpg') no-repeat;
-    background-size: 155%;
+    background: url('../websiteAZ/assets/images/720-800-2.jpg') no-repeat;
+    background-size: cover;
     transition: 1s;
 }
 
