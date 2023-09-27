@@ -550,7 +550,7 @@ li{
 }
 
 .all_about-me_description{
-    gap: 78px 15px;
+    gap: 60px 15px;
    transition: 1s;
 }
 
@@ -584,7 +584,7 @@ li{
 }
 
 .all_about-me_description{
-    gap: 71px 15px;
+    gap: 58px 15px;
    transition: 1s;
 }
     
@@ -662,7 +662,7 @@ li{
 }
 
 .all_about-me_description{
-    gap: 74px 15px;
+    gap: 55px 15px;
    transition: 1s;
 }
     
@@ -784,12 +784,12 @@ li{
 }
 
 .right_about-me{
-    margin-left: -175px;
+    margin-left: -195px;
     transition: 1s;
 }
 
 .all_about-me_description{
-    gap: 10px 10px;
+    gap: 40px 7px;
     transition: 1s;
 }
 
@@ -909,7 +909,7 @@ li{
     padding-left: 0;
   /*height: 1375px;*/
   height: auto;
-  min-height: 1375px;
+  min-height: 1175px;
     transition: 1s;
 }
 
@@ -927,8 +927,8 @@ li{
     width: 360px;
     margin: 0 auto ;
     background: url('../websiteAZ/assets/images/black_foto-2.png') no-repeat;
-    background-size: 100%;
-    background-position: right 0 bottom 39%;
+    background-size: 90%;
+    background-position: right 0 bottom 40%;
     transition: 1s;
 }
 
@@ -943,8 +943,10 @@ li{
 
 .all_about-me_description{
     grid-template-columns: repeat(1, 8fr);
-    gap: 2% ;
-    margin-top: 20px;
+    gap: 5px ;
+    /*margin-top: 10px;*/
+    height: auto;
+    min-height: 1175px;
     transition: 1s;
 }
 
