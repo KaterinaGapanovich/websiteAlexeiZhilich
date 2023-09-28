@@ -16,10 +16,12 @@ html{
     width:100%;
 }
 
+/*
 @font-face {
     font-family: Bookman Old Style;
     src: url('../websiteAZ/assets/fonts/bookmanoldstyle.ttf');
 }
+*/
 
 body{
     width: 100%;
@@ -63,7 +65,7 @@ body{
 }
 
 .vedyschi{
-    font-family: Bookman Old Style;
+    font-family: Podkova;
     font-size: 2.19em;
     letter-spacing: -0.01em;
 }
@@ -129,7 +131,7 @@ body{
 
 .like_description{
     margin-left: 4%;
-    font-family: Bookman Old Style;
+    font-family: Podkova;
     font-size: 1.25em;
     color: white;
     margin-bottom: 2.5%;
@@ -137,7 +139,7 @@ body{
 
 .like_description2{
     margin-left: 4%;
-    font-family: Bookman Old Style;
+    font-family: Podkova;
     font-size: 1.25em;
     color: white;
 }
@@ -194,7 +196,7 @@ a {
   }
 
   .video_text{
-    font-family: Bookman Old Style;
+    font-family: Podkova;
     font-size: 1.25em;
     letter-spacing: 0.02em;
     color: white;
@@ -279,7 +281,7 @@ a {
    }
 
    .text_about-me{
-    font-family: Bookman Old Style;
+    font-family: Podkova;
     font-size: 0.3em;
    }
 
@@ -476,7 +478,7 @@ li{
 }
 
 .all_about-me_description{
-    gap: 70px 15px;
+    gap: 60px 15px;
    transition: 1s;
 }
 
