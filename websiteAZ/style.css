@@ -880,14 +880,13 @@ li{
 }
 
 .gift{
-    width: 200px;
     font-size: 20px;
     transition: 1s;
 }
 
 .gift_img{
     margin-left: -25%;
-    margin-top: 45px;
+    margin-top: 75px;
     transition: 1s;
 }
 
@@ -1028,6 +1027,7 @@ li{
 
 .gift_img{
     margin-left: -11%;
+      margin-top: 45px;
     transition: 1s;
 }
 
@@ -1120,12 +1120,7 @@ li{
 }
 
 @media (max-width: 401px) {
-    .main_page{
-        background: url('../websiteAZ/assets/images/720-800-400.jpg') no-repeat;
-        background-size: cover;
-        transition: 1s;
-    }
-
+   
 .cosial_media_fotter{
         grid-template-columns: repeat(3, 2fr);
         gap: 15px 0;
@@ -1168,7 +1163,7 @@ li{
 }
 
 .phone{
-    font-size: 15px;
+    font-size: 22px;
     margin-top: 5%;
     transition: 1s;
 }
@@ -1176,12 +1171,13 @@ li{
 .gift{
     margin-left: 10px;
     width: 120px;
+    font-size: 10px;
     transition: 1s;
 }
 
 .gift_img{
-    margin-left: -36%;
-   margin-top: 90px;
+    margin-left: -16%;
+   margin-top: 60px;
     transition: 1s;
 }
 
