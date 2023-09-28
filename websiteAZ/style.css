@@ -719,6 +719,10 @@ li{
         transition: 1s;
     }
 
+.cosial_media_fotter{
+    margin-left: 13px;
+}
+
     .first_part_footer{
         margin-right: 0;
     }
@@ -1097,6 +1101,7 @@ li{
 
 .cosial_media_fotter{
     gap: 5px;
+    margin-left: 20px;
     transition: 1s;
 }
 
