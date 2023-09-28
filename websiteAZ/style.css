@@ -932,6 +932,10 @@ li{
     transition: 1s;
 }
 
+.text_about-me{
+    font-size: 15px;
+}
+
 .about_me{
     margin-top: 22px;
     transition: 1s;
@@ -956,16 +960,18 @@ li{
 }
 
 .under_foto-720{
-    margin-top: 400px;
+    margin-top: 380px;
     transition: 1s;
 }
 
 .all_about-me_description{
     grid-template-columns: repeat(1, 8fr);
-    gap: 5px ;
+    gap: 3px ;
     /*margin-top: 10px;*/
     height: auto;
     min-height: 1175px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     transition: 1s;
 }
 
