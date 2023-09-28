@@ -16,12 +16,18 @@ html{
     width:100%;
 }
 
+@font-face {
+    font-family: Bookman Old Style;
+    src: url('../websiteAZ/assets/fonts/bookmanoldstyle.ttf');
+}
+
 body{
     width: 100%;
     font-family: Montserrat;
     background: #292929;
     margin: 0;
 }
+
 
 .main_page{
     min-width: 100%;
@@ -57,7 +63,7 @@ body{
 }
 
 .vedyschi{
-    font-family: Libre Baskerville;
+    font-family: Bookman Old Style;
     font-size: 2.19em;
     letter-spacing: -0.01em;
 }
@@ -123,7 +129,7 @@ body{
 
 .like_description{
     margin-left: 4%;
-    font-family: Libre Baskerville;
+    font-family: Bookman Old Style;
     font-size: 1.25em;
     color: white;
     margin-bottom: 2.5%;
@@ -131,7 +137,7 @@ body{
 
 .like_description2{
     margin-left: 4%;
-    font-family: Libre Baskerville;
+    font-family: Bookman Old Style;
     font-size: 1.25em;
     color: white;
 }
@@ -188,7 +194,7 @@ a {
   }
 
   .video_text{
-    font-family: Libre Baskerville;
+    font-family: Bookman Old Style;
     font-size: 1.25em;
     letter-spacing: 0.02em;
     color: white;
@@ -273,7 +279,7 @@ a {
    }
 
    .text_about-me{
-    font-family: Libre Baskerville;
+    font-family: Bookman Old Style;
     font-size: 0.3em;
    }
 
@@ -743,7 +749,7 @@ li{
     
 .gift{
     width: 200px;
-    font-size: 15px;
+    font-size: 18px;
     transition: 1s;
 }
     
@@ -988,6 +994,10 @@ li{
     transition: 1s;
 } 
 
+.name_and_links{
+    margin-top: 0;
+}
+
 .vedyschi{
     font-size: 20px;
     letter-spacing: -0.01em;
@@ -1003,7 +1013,7 @@ li{
 }
 
 .phone{
-    font-size: 20px;
+    font-size: 1.2em;
     margin-top: 13%;
     transition: 1s;
 }
@@ -1022,7 +1032,7 @@ li{
 }
 
 .likes_two{
-    margin-top: 15%;
+    margin-top: 35%;
     transition: 1s;
 }
 
