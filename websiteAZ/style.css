@@ -881,7 +881,7 @@ li{
 
 .gift{
     width: 200px;
-    font-size: 10px;
+    font-size: 20px;
     transition: 1s;
 }
 
@@ -1019,7 +1019,7 @@ li{
 }
 
 .gift{
-    font-size: 10px;
+    font-size: 15px;
     margin-left: 10px;
     line-height: 16px;
     width: 120px;
@@ -1174,7 +1174,6 @@ li{
 }
 
 .gift{
-    font-size: 10px;
     margin-left: 10px;
     width: 120px;
     transition: 1s;
