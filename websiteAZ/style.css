@@ -16,20 +16,12 @@ html{
     width:100%;
 }
 
-/*
-@font-face {
-    font-family: Bookman Old Style;
-    src: url('../websiteAZ/assets/fonts/bookmanoldstyle.ttf');
-}
-*/
-
 body{
     width: 100%;
     font-family: Montserrat;
     background: #292929;
     margin: 0;
 }
-
 
 .main_page{
     min-width: 100%;
@@ -65,16 +57,16 @@ body{
 }
 
 .vedyschi{
-    font-family: Podkova;
+    font-family: Montserrat;
     font-size: 2.19em;
     letter-spacing: -0.01em;
 }
 
 .line{
   max-height: 1.25em;
-  margin: 3.1% 2.7% 0 2.7%;
-  width: 0.19em;
-  height: 1.16em;
+  margin: 3.45% 2.7% 0 2.7%;
+  width: 0.15em;
+  height: 1.19em;
 }
 
 .phone{
@@ -96,13 +88,14 @@ body{
 }
 
 .phone_img{
-    width: 13%;
-    height: 15%;
+    width: 60px;
+    height: 60px;
     margin-left: -30px;
 }
 
 .gift{
     font-family: Montserrat;
+    font-weight: 400;
     font-size: 1.25em;
     margin-left: 25px;
     letter-spacing: 0.05em;
@@ -131,16 +124,16 @@ body{
 
 .like_description{
     margin-left: 4%;
-    font-family: Podkova;
-    font-size: 1.25em;
+    font-family: Montserrat;
+    font-size: 1.1em;
     color: white;
     margin-bottom: 2.5%;
 }
 
 .like_description2{
     margin-left: 4%;
-    font-family: Podkova;
-    font-size: 1.25em;
+    font-family: Montserrat;
+    font-size: 1.1em;
     color: white;
 }
 
@@ -196,7 +189,7 @@ a {
   }
 
   .video_text{
-    font-family: Podkova;
+    font-family: Montserrat;
     font-size: 1.25em;
     letter-spacing: 0.02em;
     color: white;
@@ -281,7 +274,7 @@ a {
    }
 
    .text_about-me{
-    font-family: Podkova;
+    font-family: Montserrat;
     font-size: 0.3em;
    }
 
@@ -400,18 +393,24 @@ li{
 
 @media (max-width: 1921px) {
 
-    .like_description{
-        font-size: 24px;
-        transition: 1s;
-    }
-    
-    .like_description2{
-        font-size: 24px;
-        transition: 1s;
-    }
-
 .cosial_media{
     margin-top: -100px;
+    transition: 1s;
+}
+
+.phone_img{
+    width: 50px;
+    height: 50px;
+    margin-top: -5px;
+}
+
+.like_description{
+    font-size: 21px;
+    transition: 1s;
+}
+    
+.like_description2{
+    font-size: 21px;
     transition: 1s;
 }
 
@@ -441,27 +440,23 @@ li{
 }
         
 .all_about-me_description{
-    gap: 70px 15px;
+    gap: 50px 30px;
     transition: 1s;
 }
 
 .video_prosmotr{
     margin-right: 32%;
     transition: 1s;
-}}
+}
+}
 
 
 @media (max-width: 1600px){
 
-    .video_prosmotr{
-        margin-right: 28.5%;
-        transition: 1s;
-    }
-
-    .all_about-me_description{
-        gap: 70px 15px;
-       transition: 1s;
-    }
+.video_prosmotr{
+    margin-right: 28.5%;
+    transition: 1s;
+}
 
 }
 
@@ -477,6 +472,11 @@ li{
     transition: 1s;
 }
 
+.right_about-me{
+    margin-left: -100px;
+    transition: 1s;
+}
+
 .all_about-me_description{
     gap: 60px 15px;
    transition: 1s;
@@ -489,16 +489,6 @@ li{
 
 .dollar5{
     width: 20%;
-    transition: 1s;
-}
-
-.like_description{
-    font-size: 24px;
-    transition: 1s;
-}
-
-.like_description2{
-    font-size: 24px;
     transition: 1s;
 }
 
@@ -523,10 +513,9 @@ li{
 }
 
 .phone_img{
-    width: 10%;
-    height: 10%;
-    margin-left: -15px;
-    transition: 1s;
+    width: 50px;
+    height: 50px;
+    margin-top: -5px;
 }
 
 .gift{
@@ -534,12 +523,6 @@ li{
     transition: 1s;
 }
 
-.gift_img{
-    width: 10%;
-    height: 10%;
-    margin-top: -15px;
-    transition: 1s;
-}
 
 .video_prosmotr{
     margin-right: 19%;
@@ -580,11 +563,15 @@ li{
 }
 
 @media (max-width: 1155px) {
-    
-    .name_and_links{
-        gap: 350px;
-        transition: 1s;
-    }
+.line{
+    width: 0.12em;
+    height: 1.1em;
+}
+
+.name_and_links{
+    gap: 350px;
+    transition: 1s;
+}
 
 .right_about-me{
     margin-left: -130px;
@@ -631,10 +618,9 @@ li{
 }
 
 .phone_img{
-    width: 10%;
-    height: 10%;
-    margin-left: -15px;
-    transition: 1s;
+    width: 50px;
+    height: 50px;
+    margin-top: -5px;
 }
 
 .gift{
@@ -643,10 +629,7 @@ li{
 }
 
 .gift_img{
-    width: 10%;
-    height: 10%;
-    margin-top: -15px;
-    transition: 1s;
+    margin-top: -22px;
 }
 
 .likes_two{
@@ -665,7 +648,7 @@ li{
 }
 
 .right_about-me{
-    margin-left: -130px;
+    margin-left: -190px;
     transition: 1s;
 }
 
@@ -693,39 +676,40 @@ li{
 
 @media (max-width: 959px) {
 
-    .name_and_links{
-        gap: 210px;
-        transition: 1s;
-    }
+.name_and_links{
+    gap: 210px;
+    transition: 1s;
+}
 
-    .text_about-me{
-        font-size: 11px;
-        transition: 1s;
-    }
+.text_about-me{
+    font-size: 11px;
+    transition: 1s;
+}
     
-    .right_about-me{
-        margin-left: -175px;
-        transition: 1s;
-    }
+.right_about-me{
+    margin-left: -175px;
+    transition: 1s;
+}
     
-    .all_about-me_description{
-        gap: 55px 10px;
-        transition: 1s;
-    }
+.all_about-me_description{
+    gap: 20px 10px;
+    transition: 1s;
+}
     
-    .all_fotter_part{
-        flex-direction: column;
-        gap: 30px;
-        transition: 1s;
-    }
+.all_fotter_part{
+    flex-direction: column;
+    gap: 30px;
+    transition: 1s;
+}
 
 .cosial_media_fotter{
     margin-left: 13px;
 }
 
-    .first_part_footer{
-        margin-right: 0;
-    }
+.first_part_footer{
+    margin-right: 0;
+}
+
 }
 
 @media (max-width: 821px) {
@@ -747,8 +731,8 @@ li{
 }
     
 .line{
-    margin: 2.2% 2.7% 0 2.7%;
-    width: 0.13em;
+    margin: 3% 2.7% 0 2.7%;
+    width: 0.1em;
     height: 0.8em;
     transition: 1s;
 }
@@ -758,7 +742,17 @@ li{
     font-size: 18px;
     transition: 1s;
 }
-    
+
+.phone_img{
+    width: 40px;
+    height: 40px;
+    margin-top: -5px;
+}
+
+.gift_img{
+    margin-top: 0;
+}
+
 .link{
     width: 50%;
     transition: 1s;
@@ -800,12 +794,12 @@ li{
 }
 
 .right_about-me{
-    margin-left: -195px;
+    margin-left: -205px;
     transition: 1s;
 }
 
 .all_about-me_description{
-    gap: 40px 7px;
+    gap: 20px 7px;
     transition: 1s;
 }
 
@@ -824,16 +818,21 @@ li{
     padding-left: 100px;
 }
 
-    .name_and_links{
-        gap: 0;
-           margin-left: -25px;    
-        transition: 1s;
-    }
+.name_and_links{
+    gap: 0;
+    margin-left: -25px;    
+    transition: 1s;
+}
 
   .gift{
     margin-left: 10px;
     transition: 1s;
   }
+  .gift_img{
+    width: 13%;
+    height: 13%;
+    margin-top: -10px;
+}
 
 .video_all_promo{
     flex-direction: column;
@@ -846,13 +845,13 @@ li{
 
 @media (max-width: 641px) {
 
-    .main_page{
-        padding-left: 80px;
-        transition: 1s;
-    }
+.main_page{
+    padding-left: 80px;
+    transition: 1s;
+}
 
 .name_and_links{
-    margin-left: -25px;
+    margin-left: 0;
     transition: 1s;
 }
 
@@ -873,9 +872,9 @@ li{
 
 .line{
     max-height: 1.25em;
-    width: 0.15em;
-    height: 1em;
-    margin-top: 1.5%;
+    width: 0.1em;
+    height: 0.85em;
+    margin-top: 2.75%;
     transition: 1s;
 }
 
@@ -931,8 +930,8 @@ li{
     margin-left: 0;
     padding-left: 0;
   /*height: 1375px;*/
-  height: auto;
-  min-height: 1175px;
+    height: auto;
+    min-height: 1175px;
     transition: 1s;
 }
 
@@ -993,12 +992,12 @@ li{
 
 @media (max-width: 551px) {
 
-    .main_page{
-          background: url('../websiteAZ/assets/images/720-800.jpg') no-repeat;
-        background-size: cover;
-        padding-left: 50px;
-        transition: 1s;
-    }
+.main_page{
+    background: url('../websiteAZ/assets/images/720-800.jpg') no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+    transition: 1s;
+}
 
 .name{
     font-size: 3em;
@@ -1019,7 +1018,7 @@ li{
     max-height: 1em;
     width: 0.1em;
     height: 0.7em;
-    margin-top: 2.5%;
+    margin-top: 3.3%;
     transition: 1s;
 }
 
@@ -1027,6 +1026,12 @@ li{
     font-size: 1.2em;
     margin-top: 13%;
     transition: 1s;
+}
+
+.phone_img{
+    width: 30px;
+    height: 30px;
+    margin-top: -1px;
 }
 
 .gift{
@@ -1135,10 +1140,10 @@ li{
 @media (max-width: 401px) {
    
 .cosial_media_fotter{
-        grid-template-columns: repeat(3, 2fr);
-        gap: 15px 0;
-        transition: 1s;
-    }
+    grid-template-columns: repeat(3, 2fr);
+    gap: 15px 0;
+    transition: 1s;
+}
 }
 
 @media (max-width: 361px) {
