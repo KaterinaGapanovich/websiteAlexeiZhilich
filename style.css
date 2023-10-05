@@ -1,0 +1,1285 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width:100%;
+}
+
+body{
+    width: 100%;
+    font-family: Montserrat;
+    background: #292929;
+    margin: 0;
+}
+
+.main_page{
+    min-width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background: url('./assets/images/new-foto-backgr.jpg') no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name_and_links{
+    display: flex;
+    flex-direction: row;
+   margin-top: 150px;
+    gap: 450px;
+}
+
+.name{
+    font-family: Montserrat;
+    font-size: 4.13em;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    line-height: 1em;
+    margin: 0;
+}
+
+.vedyschi_and_fokysnic{
+    display: flex;
+    flex-direction: row;
+}
+
+.vedyschi{
+    font-family: Montserrat;
+    font-size: 2.19em;
+    letter-spacing: -0.01em;
+}
+
+.line{
+  max-height: 1.25em;
+  margin: 3.45% 2.7% 0 2.7%;
+  width: 0.15em;
+  height: 1.19em;
+}
+
+.phone{
+    font-size: 1.55em;
+    margin-top: 12.5%;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 3%;
+}
+
+.phone:hover{
+    color: rgb(58, 58, 58);
+    transition: 1s;
+}
+
+.text_under_phone{
+    display: flex;
+    flex-direction: row;
+}
+
+.phone_img{
+    width: 60px;
+    height: 60px;
+    margin-left: -30px;
+}
+
+.gift{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.25em;
+    margin-left: 25px;
+    letter-spacing: 0.05em;
+}
+
+.gift_img{
+    width: 13%;
+    height: 13%;
+    margin-top: -30px;
+}
+
+.likes_two{
+    margin-top: 13%;
+}
+
+.like{
+    display: flex;
+    flex-direction: row;
+}
+
+.like_img{
+    width: 6%;
+    height: 6%;
+    margin-top: 10px;
+}
+
+.like_description{
+    margin-left: 4%;
+    font-family: Montserrat;
+    font-size: 1.1em;
+    color: white;
+    margin-bottom: 2.5%;
+}
+
+.like_description2{
+    margin-left: 4%;
+    font-family: Montserrat;
+    font-size: 1.1em;
+    color: white;
+}
+
+.cosial_media{
+    list-style-type: none;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 5%;
+    margin: 0;
+}
+
+.link{
+    width: 90%;
+}
+
+.link:hover{
+   width: 105%;
+   transition: 1s;
+}
+
+a {
+    text-decoration:none;
+  }
+
+  /* секция видео */
+
+.video_promo{
+    min-width: 100%;
+    margin: 35px auto;
+    background: #292929;
+}
+
+  .video{
+    font-family: Montserrat;
+    font-size: 2.8em;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin: 0;
+  }
+
+  .video_description{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .kavichki{
+    width: 1.5%;
+    height: 1.5%;
+    margin-top: -7px;
+  }
+
+  .video_text{
+    font-family: Montserrat;
+    font-size: 1.25em;
+    letter-spacing: 0.02em;
+    color: white;
+  }
+
+  .video_prosmotr{
+    font-family: Montserrat;
+    font-size: 1.6em;
+    color: white;
+    text-align: right;
+    margin-right: 23%;
+  }
+
+  .video_all_promo{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .first_video-320{
+    display: none;
+  }
+
+  .second_video-320{
+    display: none;
+  }
+
+   /* секция обо мне */
+
+
+   .foto_and_about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #AEAFB3;
+    min-width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+   }
+
+   .black_foto{
+    width:auto;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+   }
+
+   .black_foto-720{
+    display: none;
+   }
+
+   .right_about-me{
+    align-items: center;
+    margin: auto 0;
+    z-index: 2;  
+   }
+
+   .about_me{
+    font-size: 1.7em;
+    text-align: center;
+    letter-spacing: 0.01em;
+   }
+
+   .about_me_h2{
+    margin: 0;
+   }
+
+   .all_about-me_description{
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    gap: 35px 20px;
+    margin-top: 25px;
+   }
+
+   .numbers{
+    font-family: montserrat;
+    font-size: 1.9em;
+    font-weight: 550;
+    margin: 0;
+   }
+
+   .text_about-me{
+    font-family: Montserrat;
+    font-size: 0.3em;
+   }
+
+   .dollar5{
+    width: 33%;
+   }
+
+/* футер */
+
+.all_fotter_part{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    background: #292929;
+    margin: 35px 0;
+}
+
+.first_part_footer{
+    margin: 0 17px 0 0;
+}
+
+.name_footer{
+    font-family: Montserrat;
+    font-size: 1.58em;
+    font-weight: 400;
+    color: white;
+}
+
+.vedyschi_and_fokysnic_footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.vedyschi_footer{
+    font-family: Montserrat;
+    font-size: 0.1em;
+    letter-spacing: -0.01em;
+    color: white;
+}
+
+.line_footer{
+  margin: 7px 5px 0 5px;
+  width: 1px;
+  height: 9px;
+}
+
+.cosial_media_fotter{
+    
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+    width: 60px;
+}
+
+.link_fotter{
+    width: 78%;
+}
+
+.last_part{
+    margin: 0;
+}
+
+.phone_footer{
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+
+.phone_footer:hover{
+    color: rgb(134, 134, 134);
+    transition: 1s;
+}
+
+.text_under_phone_footer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: relative;
+}
+
+.phone_img_footer{
+    width: 10%;
+    height: 12%;
+    margin-top: 5px;
+}
+
+.gift_footer{
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 100;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.gift_img_footer{
+    position: absolute;
+    bottom: 30px; 
+    left: 230px;
+}
+
+.for_image_footer2{
+    margin: -25px 0 0 -8px;
+}
+
+/* начало работы с медиа квери*/
+
+@media (max-width: 1921px) {
+
+.cosial_media{
+    margin-top: -100px;
+    transition: 1s;
+}
+
+.phone_img{
+    width: 50px;
+    height: 50px;
+    margin-top: -5px;
+}
+
+.like_description{
+    font-size: 21px;
+    transition: 1s;
+}
+    
+.like_description2{
+    font-size: 21px;
+    transition: 1s;
+}
+
+.foto_and_about-me{
+    margin:0;
+    transition: 1s;
+}
+
+.about_me{
+    margin: 0 auto;
+    transition: 1s;
+}
+    
+.numbers{
+    font-size: 1.3em;
+    transition: 1s;
+}
+
+.dollar5{
+    width: 22%;
+    transition: 1s;
+}
+        
+.text_about-me{
+    font-size: 18px;
+    transition: 1s;
+}
+        
+.all_about-me_description{
+    gap: 50px 30px;
+    transition: 1s;
+}
+
+.video_prosmotr{
+    margin-right: 32%;
+    transition: 1s;
+}
+}
+
+
+@media (max-width: 1600px){
+
+.video_prosmotr{
+    margin-right: 28.5%;
+    transition: 1s;
+}
+
+}
+
+@media (max-width: 1441px) {
+
+.video_text{
+    font-size: 23px;
+    transition: 1s;
+}
+
+.video_prosmotr{
+    margin-right: 23%;
+    transition: 1s;
+}
+
+.right_about-me{
+    margin-left: -100px;
+    transition: 1s;
+}
+
+.all_about-me_description{
+    gap: 60px 15px;
+   transition: 1s;
+}
+
+.text_about-me{
+    font-size: 20px;
+    transition: 1s;
+}
+
+.dollar5{
+    width: 20%;
+    transition: 1s;
+}
+
+}
+
+@media (max-width: 1281px) {
+    
+.cosial_media{
+    margin-top: -150px;
+    transition: 1s;
+}
+
+.vedyschi{
+    font-size: 1.9em;
+    transition: 1s;
+}
+
+.phone{
+    font-size: 35px;
+    margin-top: 10%;
+    transition: 1s;
+}
+
+.phone_img{
+    width: 50px;
+    height: 50px;
+    margin-top: -5px;
+}
+
+.gift{
+    font-size: 17.5px;
+    transition: 1s;
+}
+
+
+.video_prosmotr{
+    margin-right: 19%;
+    transition: 1s;
+}
+
+.kavichki{
+    width: 2%;
+    height: 2%;
+    transition: 1s;
+}
+
+.likes_two{
+    margin-top: 10%;
+    transition: 1s;
+}
+
+.all_about-me_description{
+    gap: 60px 15px;
+   transition: 1s;
+}
+
+.numbers{
+    font-size: 1.3em;
+    transition: 1s;
+}
+
+.dollar5{
+    width: 22%;
+    transition: 1s;
+}
+
+.text_about-me{
+    font-size: 18px;
+    transition: 1s;
+}
+
+}
+
+@media (max-width: 1155px) {
+.line{
+    width: 0.12em;
+    height: 1.1em;
+}
+
+.name_and_links{
+    gap: 350px;
+    transition: 1s;
+}
+
+.right_about-me{
+    margin-left: -130px;
+    transition: 1s;
+}
+
+.all_about-me_description{
+    gap: 58px 15px;
+   transition: 1s;
+}
+    
+.numbers{
+    font-size: 1.3em;
+    transition: 1s;
+}
+    
+.dollar5{
+    width: 22%;
+    transition: 1s;
+}
+    
+.text_about-me{
+    font-size: 17px;
+    transition: 1s;
+}
+}
+
+@media (max-width: 1025px) {
+
+.name_and_links{
+    gap: 300px;
+    transition: 1s;
+}
+
+.vedyschi{
+    font-size: 1.9em;
+    transition: 1s;
+}
+
+.phone{
+    font-size: 35px;
+    margin-top: 10%;
+    transition: 1s;
+}
+
+.phone_img{
+    width: 50px;
+    height: 50px;
+    margin-top: -5px;
+}
+
+.gift{
+    font-size: 17.5px;
+    transition: 1s;
+}
+
+.gift_img{
+    margin-top: -22px;
+}
+
+.likes_two{
+    margin-top: 10%;
+    transition: 1s;
+}
+
+.video_prosmotr{
+    margin-right: 11.5%;
+    transition: 1s;
+}
+
+.kavichki{
+    width: 2.5%;
+    transition: 1s;
+}
+
+.right_about-me{
+    margin-left: -190px;
+    transition: 1s;
+}
+
+.all_about-me_description{
+    gap: 55px 15px;
+   transition: 1s;
+}
+    
+.numbers{
+    font-size: 1.3em;
+    transition: 1s;
+}
+    
+.dollar5{
+    width: 22%;
+    transition: 1s;
+}
+    
+.text_about-me{
+    font-size: 17px;
+    transition: 1s;
+}
+
+}
+
+@media (max-width: 959px) {
+
+.name_and_links{
+    gap: 210px;
+    transition: 1s;
+}
+
+.text_about-me{
+    font-size: 11px;
+    transition: 1s;
+}
+    
+.right_about-me{
+    margin-left: -175px;
+    transition: 1s;
+}
+    
+.all_about-me_description{
+    gap: 20px 10px;
+    transition: 1s;
+}
+    
+.all_fotter_part{
+    flex-direction: column;
+    gap: 30px;
+    transition: 1s;
+}
+
+.cosial_media_fotter{
+    margin-left: 13px;
+}
+
+.first_part_footer{
+    margin-right: 0;
+}
+
+}
+
+@media (max-width: 821px) {
+
+.name_and_links{
+    gap: 210px;
+    margin-top: 70px;
+    transition: 1s;
+}
+
+.name{
+    font-size: 3.5em;
+    transition: 1s;
+}
+    
+.vedyschi{
+    font-size: 1.4em;
+    transition: 1s;
+}
+    
+.line{
+    margin: 3% 2.7% 0 2.7%;
+    width: 0.1em;
+    height: 0.8em;
+    transition: 1s;
+}
+    
+.gift{
+    width: 200px;
+    font-size: 18px;
+    transition: 1s;
+}
+
+.phone_img{
+    width: 40px;
+    height: 40px;
+    margin-top: -5px;
+}
+
+.gift_img{
+    margin-top: 0;
+}
+
+.link{
+    width: 50%;
+    transition: 1s;
+}
+
+.like_img{
+    width: 5%;
+    height: 5%;
+    transition: 1s;
+}
+
+.like_description{
+    font-size: 17px;
+    transition: 1s;
+}
+
+.like_description2{
+    font-size: 17px;
+    transition: 1s;
+}
+
+.cosial_media{
+    display: none;
+}
+
+.video_text{
+    width: 470px;
+    transition: 1s;
+}
+
+.video_prosmotr{
+    margin-right: 19.5%;
+    transition: 1s;
+}
+
+.text_about-me{
+    font-size: 11px;
+    transition: 1s;
+}
+
+.right_about-me{
+    margin-left: -205px;
+    transition: 1s;
+}
+
+.all_about-me_description{
+    gap: 20px 7px;
+    transition: 1s;
+}
+
+.all_fotter_part{
+    flex-direction: column;
+    gap: 30px;
+    transition: 1s;
+}
+
+}
+
+@media (max-width: 783px) {
+
+.main_page{
+    justify-content: left;
+    padding-left: 100px;
+}
+
+.name_and_links{
+    gap: 0;
+    margin-left: -25px;    
+    transition: 1s;
+}
+
+  .gift{
+    margin-left: 10px;
+    transition: 1s;
+  }
+  .gift_img{
+    width: 13%;
+    height: 13%;
+    margin-top: -10px;
+}
+
+.video_all_promo{
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    transition: 1s;
+}
+
+}
+
+@media (max-width: 641px) {
+
+.main_page{
+    padding-left: 80px;
+    transition: 1s;
+}
+
+.name_and_links{
+    margin-left: 0;
+    transition: 1s;
+}
+
+.cosial_media{
+    display: none;
+}
+
+.name{
+    font-size: 50px;
+    transition: 1s;
+}
+
+.vedyschi{
+    font-size: 1.4em;
+    letter-spacing: -0.01em;
+    transition: 1s;
+}
+
+.line{
+    max-height: 1.25em;
+    width: 0.1em;
+    height: 0.85em;
+    margin-top: 2.75%;
+    transition: 1s;
+}
+
+.phone{
+    font-size: 1.3em;
+    margin-top: 10%;
+    transition: 1s;
+}
+
+.gift{
+    font-size: 20px;
+    transition: 1s;
+}
+
+.gift_img{
+    margin-left: -25%;
+    margin-top: 75px;
+    transition: 1s;
+}
+
+.likes_two{
+    margin-top: 20%;
+    transition: 1s;
+}
+
+.like_img{
+    width: 4%;
+    height: 4%;
+    transition: 1s;
+}
+
+.like_description{
+    font-size: 1em;
+    transition: 1s;
+}
+
+.like_description2{
+    font-size: 1em;
+    transition: 1s;
+}
+
+.video_prosmotr{
+    margin-right: 12%;
+    transition: 1s;
+}
+
+.kavichki{
+    width: 3%;
+    transition: 1s;
+}
+
+.foto_and_about-me{
+    margin-left: 0;
+    padding-left: 0;
+  /*height: 1375px;*/
+    height: auto;
+    min-height: 1175px;
+    transition: 1s;
+}
+
+.text_about-me{
+    font-size: 15px;
+}
+
+.about_me{
+    margin-top: 22px;
+    transition: 1s;
+}
+
+.about_me_h2{
+    margin-top: 35px;
+    transition: 1s;
+}
+
+.right_about-me{
+    width: 360px;
+    margin: 0 auto ;
+    background: url('./assets/images/black_foto-2.png') no-repeat;
+    background-size: 90%;
+    background-position: right 0 bottom 40%;
+    transition: 1s;
+}
+
+.black_foto{
+    display: none;
+}
+
+.under_foto-720{
+    margin-top: 380px;
+    transition: 1s;
+}
+
+.all_about-me_description{
+    grid-template-columns: repeat(1, 8fr);
+    gap: 3px ;
+    /*margin-top: 10px;*/
+    height: auto;
+    min-height: 1175px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.numbers{
+    font-size: 1em;
+    transition: 1s;
+}
+
+.dollar5{
+    width: 15%;
+    transition: 1s;
+}
+
+}
+
+@media (max-width: 551px) {
+
+.main_page{
+    background: url('./assets/images/720-800.jpg') no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+    transition: 1s;
+}
+
+.name{
+    font-size: 3em;
+    transition: 1s;
+} 
+
+.name_and_links{
+    margin-top: 0;
+}
+
+.vedyschi{
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    transition: 1s;
+}
+
+.line{
+    max-height: 1em;
+    width: 0.1em;
+    height: 0.7em;
+    margin-top: 3.3%;
+    transition: 1s;
+}
+
+.phone{
+    font-size: 1.2em;
+    margin-top: 13%;
+    transition: 1s;
+}
+
+.phone_img{
+    width: 30px;
+    height: 30px;
+    margin-top: -1px;
+}
+
+.gift{
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 16px;
+    width: 120px;
+    transition: 1s;
+}
+
+.gift_img{
+    margin-left: -11%;
+      margin-top: 45px;
+    transition: 1s;
+}
+
+.likes_two{
+    margin-top: 35%;
+    transition: 1s;
+}
+
+.like_img{
+    width: 6%;
+    height: 6%;
+    transition: 1s;
+}
+
+.like_description{
+    font-size: 1em;
+    transition: 1s;
+}
+
+.like_description2{
+    font-size: 1em;
+    transition: 1s;
+}
+
+.video{
+    font-size: 30px;
+    transition: 1s;
+}
+
+.kavichki{
+    width: 4%;
+    transition: 1s;
+}
+
+.video_text{
+    font-size: 18px;
+    width: 360px;
+    transition: 1s;
+}
+
+.video_prosmotr{
+    font-size: 20px;
+    margin-right: 20%;
+    transition: 1s;
+}
+
+}
+
+@media (max-width: 481px) {
+
+.name{
+    font-size: 3em;
+    transition: 1s;
+} 
+
+.video_prosmotr{
+    margin-right: 15%;
+}
+
+.cosial_media_fotter{
+    gap: 5px;
+    margin-left: 20px;
+    transition: 1s;
+}
+
+.link_fotter{
+    width: 68%;
+    transition: 1s;
+}
+}
+
+@media (max-width: 431px) {
+
+
+.name{
+    font-size: 3em;
+    transition: 1s;
+} 
+    
+.video_prosmotr{
+    margin-right: 13%;
+    transition: 1s;
+}
+    
+.right_about-me{
+    width: 360px;
+    margin: 3% auto ;
+    transition: 1s;
+}
+
+}
+
+@media (max-width: 401px) {
+   
+.cosial_media_fotter{
+    grid-template-columns: repeat(3, 2fr);
+    gap: 15px 0;
+    transition: 1s;
+}
+}
+
+@media (max-width: 361px) {
+
+.main_page{
+    background: url('./assets/images/720-800-2.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s;
+}
+
+.name_and_links{
+    gap: 0;
+    margin-top: 25px;
+    transition: 1s;
+}
+
+.name{
+    font-size: 3em;
+    margin-top: 0;
+    transition: 1s;
+} 
+
+.vedyschi{
+    font-size: 10px;
+    letter-spacing: -0.01em;
+    transition: 1s;
+}
+
+.line{
+    max-height: 1em;
+    width: 0.1em;
+    height: 0.7em;
+    margin-top: 1.7%;
+    transition: 1s;
+}
+
+.phone{
+    font-size: 22px;
+    margin-top: 5%;
+    transition: 1s;
+}
+
+.gift{
+    margin-left: 10px;
+    width: 120px;
+    font-size: 10px;
+    transition: 1s;
+}
+
+.gift_img{
+    margin-left: -16%;
+   margin-top: 60px;
+    transition: 1s;
+}
+
+.likes_two{
+    margin-top: 25%;
+    transition: 1s;
+}
+
+.like_img{
+    width: 6%;
+    height: 6%;
+    transition: 1s;
+}
+
+.like_description{
+    font-size: 1em;
+    transition: 1s;
+}
+
+.like_description2{
+    font-size: 1em;
+    transition: 1s;
+}
+
+.video{
+    font-size: 30px;
+    transition: 1s;
+}
+
+.kavichki{
+    width: 5%;
+    transition: 1s;
+}
+
+.video_text{
+    font-size: 10px;
+    width: 290px;
+    transition: 1s;
+}
+
+.video_prosmotr{
+    
+    font-size: 20px;
+    margin-right: 8%;
+    transition: 1s;
+}
+
+.video_all_promo{
+    margin-right: 0;
+    margin-left: 0;
+    transition: 1s;
+}
+
+.video_description{
+    margin-right: 0;
+    transition: 1s;
+}
+
+.video_promo{
+    padding-left: 0;
+    transition: 1s;
+}
+
+.first_video{
+    display: none;
+}
+
+.second_video{
+    display: none;
+}
+
+.first_video-320{
+    display: block;
+    transition: 1s;
+}
+
+.second_video-320{
+    display: block;
+    transition: 1s;
+}
+
+.link_fotter{
+    width: 60%;
+    transition: 1s;
+}
+
+}
