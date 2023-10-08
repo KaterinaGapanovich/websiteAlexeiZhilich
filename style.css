@@ -1333,3 +1333,40 @@ li{
 }
 
 }
+
+@media (max-width: 321px) {
+
+
+    
+.main_page{
+    background: url('./assets/images/700_800-3.jpg') no-repeat;
+    background-size: cover;
+    padding-left: 10px;
+    transition: 1s;
+}
+
+.name_and_links{
+    margin-left: 1px;
+    transition: 1s;
+}
+
+.gift{
+    font-size: 10px;
+    margin: 0 0 0 10px;
+    transition: 1s;
+}
+
+ .gift_img{
+    width: 13%;
+  transition: 1s;
+}
+
+.phone_img{
+    width: 22px;
+    height: 22px;
+    margin: 0 0 0 -5px; 
+   
+}
+
+ 
+}
