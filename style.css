@@ -1014,6 +1014,37 @@ li{
     transition: 1s;
 }
 
+.name_and_links{
+    margin-top: 30px;
+}
+
+.name{
+    font-size: 2.5em;
+    margin-top: 0;
+    transition: 1s;
+} 
+
+.vedyschi{
+    font-size: 10px;
+    letter-spacing: -0.01em;
+    transition: 1s;
+}
+
+.line{
+    max-height: 1em;
+    width: 0.1em;
+    height: 0.7em;
+    margin-top: 1.7%;
+    transition: 1s;
+}
+
+.phone{
+    font-size: 20px;
+    margin-top: 20%;
+    transition: 1s;
+}
+
+/*
 .name{
     font-size: 3em;
     transition: 1s;
@@ -1041,7 +1072,7 @@ li{
     font-size: 1.2em;
     margin-top: 13%;
     transition: 1s;
-}
+}*/
 
 .phone_img{
     width: 30px;
@@ -1111,7 +1142,7 @@ li{
 @media (max-width: 481px) {
 
 .name{
-    font-size: 3em;
+    font-size: 2.5em;
     transition: 1s;
 } 
 
@@ -1135,7 +1166,7 @@ li{
 
 
 .name{
-    font-size: 3em;
+    font-size: 2.5em;
     transition: 1s;
 } 
     
