@@ -353,6 +353,7 @@ li{
     font-weight: 400;
     color: white;
     margin: 0;
+    padding-left: 15px;
 }
 
 .phone_footer:hover{
@@ -388,7 +389,7 @@ li{
 }
 
 .for_image_footer2{
-    margin: -10px 0 0 -8px;
+    margin: -1px 0 0 -8px;
 }
 
 /* начало работы с медиа квери*/
@@ -1009,7 +1010,7 @@ li{
 .main_page{
     background: url('./assets/images/720-800.jpg') no-repeat;
     background-size: cover;
-    padding-left: 50px;
+    padding-left: 40px;
     transition: 1s;
 }
 
@@ -1058,7 +1059,7 @@ li{
 
 .gift_img{
     margin-left: -11%;
-      margin-top: 45px;
+      margin-top: 52px;
     transition: 1s;
 }
 
@@ -1170,12 +1171,12 @@ li{
 
 .name_and_links{
     gap: 0;
-    margin-top: 25px;
+    margin-top: 5px;
     transition: 1s;
 }
 
 .name{
-    font-size: 3em;
+    font-size: 2.5em;
     margin-top: 0;
     transition: 1s;
 } 
@@ -1195,8 +1196,8 @@ li{
 }
 
 .phone{
-    font-size: 22px;
-    margin-top: 5%;
+    font-size: 20px;
+    margin-top: 20%;
     transition: 1s;
 }
 
