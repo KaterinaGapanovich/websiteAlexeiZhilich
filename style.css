@@ -830,13 +830,17 @@ li{
 
 .main_page{
     justify-content: left;
-    padding-left: 100px;
+    padding-left: 70px;
 }
 
 .name_and_links{
     gap: 0;
     margin-left: -25px;    
     transition: 1s;
+}
+
+.phone{
+    font-size: 30px;
 }
 
   .gift{
@@ -846,7 +850,7 @@ li{
   .gift_img{
     width: 13%;
     height: 13%;
-    margin-top: -10px;
+    margin-top: 1px;
 }
 
 .video_all_promo{
@@ -861,7 +865,7 @@ li{
 @media (max-width: 641px) {
 
 .main_page{
-    padding-left: 80px;
+    padding-left: 45px;
     transition: 1s;
 }
 
@@ -875,7 +879,7 @@ li{
 }
 
 .name{
-    font-size: 50px;
+    font-size: 45px;
     transition: 1s;
 }
 
@@ -1025,7 +1029,7 @@ li{
 } 
 
 .vedyschi{
-    font-size: 10px;
+    font-size: 17px;
     letter-spacing: -0.01em;
     transition: 1s;
 }
@@ -1034,7 +1038,7 @@ li{
     max-height: 1em;
     width: 0.1em;
     height: 0.7em;
-    margin-top: 1.7%;
+    margin-top: 3%;
     transition: 1s;
 }
 
@@ -1127,7 +1131,7 @@ li{
 
 .video_text{
     font-size: 18px;
-    width: 360px;
+    width: 355px;
     transition: 1s;
 }
 
