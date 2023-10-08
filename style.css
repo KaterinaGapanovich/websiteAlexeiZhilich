@@ -38,7 +38,7 @@ body{
 .name_and_links{
     display: flex;
     flex-direction: row;
-   margin-top: 100px;
+   margin-top: 70px;
     gap: 450px;
 }
 
@@ -264,7 +264,7 @@ a {
    .all_about-me_description{
     display: grid;
     grid-template-columns: repeat(2, 4fr);
-    gap: 30px 20px;
+    gap: 20px 20px;
     margin-top: 25px;
    }
 
@@ -282,6 +282,8 @@ a {
 
     .dollar5{
    width: 8%;
+   position: relative;
+   bottom: 5px;
    }
 
 /* футер */
@@ -397,7 +399,7 @@ li{
 @media (max-width: 1921px) {
 
 .cosial_media{
-    margin-top: -100px;
+    margin-top: -50px;
     transition: 1s;
 }
 
@@ -435,6 +437,9 @@ li{
 .dollar5{
     width: 8%;
     transition: 1s;
+    margin-bottom: -3px;
+    position: relative;
+   top: 4px;
 }
         
 .text_about-me{
@@ -443,7 +448,7 @@ li{
 }
         
 .all_about-me_description{
-    gap: 30px 30px;
+    gap: 20px 30px;
     transition: 1s;
 }
 
@@ -481,7 +486,7 @@ li{
 }
 
 .all_about-me_description{
-    gap: 25px 15px;
+    gap: 20px 15px;
    transition: 1s;
 }
 
@@ -491,6 +496,9 @@ li{
 }
 
 .dollar5{
+    margin-bottom: -1px;
+    position: relative;
+   top: 4px;
     width: 6.5%;
     transition: 1s;
 }
@@ -500,7 +508,7 @@ li{
 @media (max-width: 1281px) {
     
 .cosial_media{
-    margin-top: -150px;
+    margin-top: -50px;
     transition: 1s;
 }
 
@@ -544,7 +552,7 @@ li{
 }
 
 .all_about-me_description{
-    gap: 30px 15px;
+    gap: 20px 15px;
    transition: 1s;
 }
 
@@ -554,6 +562,9 @@ li{
 }
 
 .dollar5{
+    margin-bottom: -3px;
+    position: relative;
+   top: 5px;
     width: 8%;
     transition: 1s;
 }
@@ -582,7 +593,7 @@ li{
 }
 
 .all_about-me_description{
-    gap: 30px 15px;
+    gap: 25px 15px;
    transition: 1s;
 }
     
@@ -592,6 +603,9 @@ li{
 }
     
 .dollar5{
+    margin-bottom: 0;
+    position: relative;
+   top: 5px;
     width: 8%;
     transition: 1s;
 }
@@ -698,7 +712,11 @@ li{
     gap: 20px 10px;
     transition: 1s;
 }
-    
+.dollar5{
+    width: 8.5%;
+    transition: 1s;
+}
+
 .all_fotter_part{
     flex-direction: column;
     gap: 30px;
@@ -714,6 +732,7 @@ li{
 }
 
 }
+
 
 @media (max-width: 821px) {
 
@@ -814,10 +833,16 @@ li{
 }
 
 .all_about-me_description{
-    gap: 20px 7px;
+    gap: 7px 7px;
     transition: 1s;
 }
 
+.dollar5{
+    width: 11%;
+    margin-bottom: -1px;
+    position: relative;
+   top: 4px;
+}
 .all_fotter_part{
     flex-direction: column;
     gap: 30px;
@@ -1325,6 +1350,10 @@ li{
 .second_video-320{
     display: block;
     transition: 1s;
+}
+
+.dollar5{
+    width: 7%;
 }
 
 .link_fotter{
