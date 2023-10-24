@@ -69,6 +69,13 @@ body{
   height: 1.19em;
 }
 
+.vedyschi_na_svadby{
+       font-family: Montserrat;
+    font-size: 2.12em;
+    letter-spacing: -0.01em;
+    margin-bottom: 10px;
+}
+
 .phone{
     font-size: 1.55em;
     margin-top: 12.5%;
@@ -512,9 +519,14 @@ li{
     transition: 1s;
 }
 
+/*
 .vedyschi{
     font-size: 1.9em;
     transition: 1s;
+}*/
+
+.vedyschi_na_svadby{
+    font-size: 2.2em;
 }
 
 .phone{
@@ -533,7 +545,6 @@ li{
     font-size: 17.5px;
     transition: 1s;
 }
-
 
 .video_prosmotr{
     margin-right: 19%;
@@ -623,9 +634,13 @@ li{
     transition: 1s;
 }
 
-.vedyschi{
+/*.vedyschi{
     font-size: 1.9em;
     transition: 1s;
+}*/
+
+.vedyschi_na_svadby{
+    font-size: 1.8em;
 }
 
 .phone{
@@ -864,6 +879,10 @@ li{
     transition: 1s;
 }
 
+.vedyschi_na_svadby{
+    font-size: 1.45em;
+}
+
 .phone{
     font-size: 30px;
 }
@@ -908,10 +927,14 @@ li{
     transition: 1s;
 }
 
-.vedyschi{
+/*.vedyschi{
     font-size: 1.4em;
     letter-spacing: -0.01em;
     transition: 1s;
+}*/
+
+.vedyschi_na_svadby{
+    font-size: 1.28em;
 }
 
 .line{
@@ -1053,11 +1076,11 @@ li{
     transition: 1s;
 } 
 
-.vedyschi{
+/*.vedyschi{
     font-size: 17px;
     letter-spacing: -0.01em;
     transition: 1s;
-}
+}*/
 
 .line{
     max-height: 1em;
