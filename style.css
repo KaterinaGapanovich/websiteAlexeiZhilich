@@ -71,7 +71,7 @@ body{
 
 .vedyschi_na_svadby{
        font-family: Montserrat;
-    font-size: 2.12em;
+    font-size: 34px;
     letter-spacing: -0.01em;
     margin-bottom: 10px;
 }
@@ -410,6 +410,11 @@ li{
     transition: 1s;
 }
 
+.vedyschi_na_svadby{
+    font-size: 34px;
+    transition: 1s;
+}
+
 .phone_img{
     width: 50px;
     height: 50px;
@@ -468,6 +473,11 @@ li{
 
 @media (max-width: 1600px){
 
+.vedyschi_na_svadby{
+    font-size: 34px;
+    transition: 1s;
+}
+
 .video_prosmotr{
     margin-right: 28.5%;
     transition: 1s;
@@ -476,6 +486,11 @@ li{
 }
 
 @media (max-width: 1441px) {
+
+.vedyschi_na_svadby{
+    font-size: 34px;
+    transition: 1s;
+}
 
 .video_text{
     font-size: 23px;
@@ -526,7 +541,8 @@ li{
 }*/
 
 .vedyschi_na_svadby{
-    font-size: 2.2em;
+    font-size: 34px;
+    transition: 1s;
 }
 
 .phone{
@@ -598,6 +614,11 @@ li{
     transition: 1s;
 }
 
+.vedyschi_na_svadby{
+    font-size: 34px;
+    transition: 1s;
+}
+
 .right_about-me{
     margin-left: -130px;
     transition: 1s;
@@ -640,7 +661,8 @@ li{
 }*/
 
 .vedyschi_na_svadby{
-    font-size: 1.8em;
+    font-size: 29px;
+    transition: 1s;
 }
 
 .phone{
@@ -710,6 +732,11 @@ li{
 
 .name_and_links{
     gap: 210px;
+    transition: 1s;
+}
+
+.vedyschi_na_svadby{
+    font-size: 28.5px;
     transition: 1s;
 }
 
@@ -880,7 +907,8 @@ li{
 }
 
 .vedyschi_na_svadby{
-    font-size: 1.45em;
+    font-size: 28.5px;
+    transition: 1s;
 }
 
 .phone{
@@ -934,7 +962,8 @@ li{
 }*/
 
 .vedyschi_na_svadby{
-    font-size: 1.28em;
+    font-size: 20.5px;
+    transition: 1s;
 }
 
 .line{
