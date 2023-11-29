@@ -1437,6 +1437,29 @@ li{
     transition: 1s;
 }
 
+.fotogalery_h2{
+    padding: 50px 0 75px 0;
+    font-size: 40.8px;
+    transition: 1s;
+}
+
+.slider__btn-prev{
+    left: 2%;
+    top: 50%;
+    transition: 1s;
+}
+
+.slider__btn-next{
+    left: 88.5%;
+    top: 50%;
+    transition: 1s;
+}
+
+.slider__wrapper{
+    bottom: 18%;
+    transition: 1s;
+}
+
 }
 
 @media (max-width: 481px) {
@@ -1480,7 +1503,7 @@ li{
 }
 
 .slider__wrapper{
-    bottom: 12%;
+    bottom: 18%;
     transition: 1s;
 }
 }
@@ -1504,6 +1527,12 @@ li{
     transition: 1s;
 }
 
+.fotogalery_h2{
+    padding: 40px 0 45px 0;
+    font-size: 40.8px;
+    transition: 1s;
+}
+
 }
 
 @media (max-width: 401px) {
@@ -1513,6 +1542,34 @@ li{
     gap: 15px 0;
     transition: 1s;
 }
+
+.slider{
+    width: 300px;
+}
+
+.fotogalery_h2{
+    padding: 60px 0 65px 0;
+    font-size: 40.8px;
+    transition: 1s;
+}
+
+.slider__btn-prev{
+    left: 1%;
+    top: 54%;
+    transition: 1s;
+}
+
+.slider__btn-next{
+    left: 89.5%;
+    top: 54%;
+    transition: 1s;
+}
+
+.slider__wrapper{
+    bottom: 15%;
+    transition: 1s;
+}
+
 }
 
 @media (max-width: 361px) {
@@ -1654,6 +1711,14 @@ li{
 .link_fotter{
     width: 60%;
     transition: 1s;
+}
+
+.slider{
+    /* Чтобы во время перетаскивания слайда ничего не выделить внутри него */
+  user-select: none;
+  /* Чтобы запретить скролл страницы, если мы начали двигать слайдер по оси X */
+  touch-action: pan-y;
+  cursor: grab;
 }
 
 }
