@@ -17,10 +17,10 @@ window.addEventListener('resize', showSlide);
 sliderBtnNext.addEventListener('click', nextSlide);
 sliderBtnPrev.addEventListener('click', prevSlide);
 
-// Автоматическое перелистывание слайдов
-//setInterval(() => {
-  // nextSlide()
- //}, 3000);
+ //Автоматическое перелистывание слайдов
+setInterval(() => {
+   nextSlide()
+ }, 3000);
 
 
 // Функции ==================
@@ -125,6 +125,9 @@ function handleTouchMove(event){
         if (xDiff > 0) nextSlide();
         else prevSlide();
     } 
+
+    x1 = null;
+    y1 = null;
     
     //else{
       //  if (yDiff > 0) nextSlide();
