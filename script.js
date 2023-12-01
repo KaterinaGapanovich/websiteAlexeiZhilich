@@ -41,6 +41,7 @@ function sliderMy(){
     sliderImages[sliderCount].classList.remove('opacity0');
 }
 
+
 // Перелистывает слайд вперед
 function nextSlide() {
     //sliderCount++;
@@ -55,6 +56,10 @@ function nextSlide() {
     thisSlide(sliderCount);
     sliderMy();
 }
+
+//кликает по картинке
+sliderLine.onclick = nextSlide; 
+
 
 // Перелистывает слайд назад
 function prevSlide() {
