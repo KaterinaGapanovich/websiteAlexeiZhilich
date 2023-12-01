@@ -338,11 +338,12 @@ a {
     display: flex;
     align-items: center;
     opacity: 1;
+    /*transition: transform 1s ease-in-out 0s;*/
 }
 
 .slider__img{
     opacity: 1;
-    transition: all ease 1s;
+    
 }
 
 .slider__btn-prev{
@@ -355,6 +356,8 @@ a {
     border: none;
     z-index: 1;
     cursor: pointer;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+-webkit-tap-highlight-color: transparent;
 }
 
 .slider__btn-prev:hover{
@@ -372,6 +375,8 @@ a {
     border: none;
     z-index: 2;
     cursor: pointer;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+-webkit-tap-highlight-color: transparent;
 }
 
 .slider__btn-next:hover{
@@ -388,6 +393,8 @@ a {
     margin: 0 auto;
     padding: 40px 0;
     cursor: pointer;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+-webkit-tap-highlight-color: transparent;
 }
 
 .slider__dot{
