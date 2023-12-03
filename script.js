@@ -169,6 +169,7 @@ function handleTouchMove(event){
         if (xDiff > 0) prevSlide();
         else nextSlide();
     } 
+    
 
     x1 = null;
     y1 = null;
