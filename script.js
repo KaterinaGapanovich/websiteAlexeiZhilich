@@ -34,6 +34,49 @@ function showSlide() {
 }
 showSlide();
 
+/*
+sliderDots[0].classList.add('activeImage');
+sliderImages[0].classList.add('activeImage');
+
+for(let i=0; i<sliderDots.length; i++){
+   sliderDots[i].addEventListener('click',()=>{
+        for(let k = 0; k<sliderImages.length; k++){
+            sliderDots[k].classList.remove('activeImage')
+            sliderImages[k].classList.remove('activeImage')
+        }
+        sliderCount = i;
+        sliderImages[sliderCount].classList.add('activeImage');
+        sliderDots[sliderCount].classList.add('activeImage');
+    })
+}
+
+sliderBtnPrev.addEventListener('click',()=>{
+    for(let k = 0; k<sliderImages.length; k++){
+        sliderDots[k].classList.remove('activeImage')
+        sliderImages[k].classList.remove('activeImage')
+    }
+    sliderCount--
+    if (sliderCount <0){
+        sliderCount = sliderImages.length-1
+    }
+    sliderImages[sliderCount].classList.add('activeImage');
+    sliderDots[sliderCount].classList.add('activeImage');
+})
+
+sliderBtnNext.addEventListener('click',()=>{
+    for(let k = 0; k<sliderImages.length; k++){
+        sliderDots[k].classList.remove('activeImage')
+        sliderImages[k].classList.remove('activeImage')
+    }
+    sliderCount++
+    if (sliderCount >= sliderImages.length){
+        sliderCount = 0
+    }
+    sliderImages[sliderCount].classList.add('activeImage');
+    sliderDots[sliderCount].classList.add('activeImage');
+})
+*/
+
 function sliderMy(){
     for (let i=0; i < sliderImages.length; i++){
         sliderImages[i].classList.add('opacity0');
@@ -97,6 +140,7 @@ sliderDots.forEach((dot, index) => {
     })
 })
 
+
 // работа со свайпами
 
 document.addEventListener('touchstart', handleTouchStart, false);
@@ -122,8 +166,8 @@ function handleTouchMove(event){
     let yDiff = y2 - y1;
 
     if (Math.abs(xDiff) > Math.abs(yDiff)){
-        if (xDiff > 0) nextSlide();
-        else prevSlide();
+        if (xDiff > 0) prevSlide();
+        else nextSlide();
     } 
 
     x1 = null;
