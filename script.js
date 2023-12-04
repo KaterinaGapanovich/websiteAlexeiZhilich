@@ -18,9 +18,9 @@ sliderBtnNext.addEventListener('click', nextSlide);
 sliderBtnPrev.addEventListener('click', prevSlide);
 
  //Автоматическое перелистывание слайдов
-setInterval(() => {
-   nextSlide()
- }, 3000);
+//setInterval(() => {
+  // nextSlide()
+ //}, 2000);
 
 
 // Функции ==================
@@ -80,8 +80,10 @@ sliderBtnNext.addEventListener('click',()=>{
 function sliderMy(){
     for (let i=0; i < sliderImages.length; i++){
         sliderImages[i].classList.add( 'opacity0');
+        sliderImages[i].classList.remove( 'opacity-keyframes');
     }
     sliderImages[sliderCount].classList.remove( 'opacity0');
+    sliderImages[sliderCount].classList.add( 'opacity-keyframes');
 }
 
 
@@ -172,7 +174,7 @@ function handleTouchMove(event){
         if (xDiff > 0) prevSlide();
 
         else nextSlide();
-        
+
     } 
     
 

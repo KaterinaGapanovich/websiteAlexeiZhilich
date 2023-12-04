@@ -322,28 +322,27 @@ a {
 }
 
 @keyframes ani {
-    100% {opacity: 1;}
     0% {opacity: 0;}
+    100% {opacity: 1;}
   }
 
 .opacity0{
-  opacity: 0;
+  /*opacity: 0;
   animation-name: ani;
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-direction: normal;
   animation-fill-mode: forwards;
   animation-play-state: inherit;
-  animation-iteration-count: 1;
+  animation-iteration-count: 1;*/
 }
 
-/*
 .opacity-keyframes{
     animation-name: ani;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}*/
+    animation-iteration-count: 1;
+}
 
 .slider{
     position: relative;
@@ -359,9 +358,9 @@ a {
     align-items: center;
     opacity: 1;
    animation-name: ani;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 
 .slider__img{
