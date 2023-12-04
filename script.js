@@ -79,9 +79,9 @@ sliderBtnNext.addEventListener('click',()=>{
 
 function sliderMy(){
     for (let i=0; i < sliderImages.length; i++){
-        sliderImages[i].classList.add('opacity0');
+        sliderImages[i].classList.add( 'opacity0');
     }
-    sliderImages[sliderCount].classList.remove('opacity0');
+    sliderImages[sliderCount].classList.remove( 'opacity0');
 }
 
 
@@ -98,6 +98,7 @@ function nextSlide() {
     rollSlider();
     thisSlide(sliderCount);
     sliderMy();
+    
 }
 
 //кликает по картинке
@@ -117,6 +118,7 @@ function prevSlide() {
     rollSlider();
     thisSlide(sliderCount);
     sliderMy();
+    
 }
 
 // Задает шаг перемещения слайдов
@@ -166,8 +168,11 @@ function handleTouchMove(event){
     let yDiff = y2 - y1;
 
     if (Math.abs(xDiff) > Math.abs(yDiff)){
+       
         if (xDiff > 0) prevSlide();
+
         else nextSlide();
+        
     } 
     
 
