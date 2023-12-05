@@ -18,9 +18,9 @@ sliderBtnNext.addEventListener('click', nextSlide);
 sliderBtnPrev.addEventListener('click', prevSlide);
 
  //Автоматическое перелистывание слайдов
-//setInterval(() => {
-  // nextSlide()
- //}, 2000);
+setInterval(() => {
+   nextSlide()
+ }, 3000);
 
 
 // Функции ==================
@@ -34,48 +34,6 @@ function showSlide() {
 }
 showSlide();
 
-/*
-sliderDots[0].classList.add('activeImage');
-sliderImages[0].classList.add('activeImage');
-
-for(let i=0; i<sliderDots.length; i++){
-   sliderDots[i].addEventListener('click',()=>{
-        for(let k = 0; k<sliderImages.length; k++){
-            sliderDots[k].classList.remove('activeImage')
-            sliderImages[k].classList.remove('activeImage')
-        }
-        sliderCount = i;
-        sliderImages[sliderCount].classList.add('activeImage');
-        sliderDots[sliderCount].classList.add('activeImage');
-    })
-}
-
-sliderBtnPrev.addEventListener('click',()=>{
-    for(let k = 0; k<sliderImages.length; k++){
-        sliderDots[k].classList.remove('activeImage')
-        sliderImages[k].classList.remove('activeImage')
-    }
-    sliderCount--
-    if (sliderCount <0){
-        sliderCount = sliderImages.length-1
-    }
-    sliderImages[sliderCount].classList.add('activeImage');
-    sliderDots[sliderCount].classList.add('activeImage');
-})
-
-sliderBtnNext.addEventListener('click',()=>{
-    for(let k = 0; k<sliderImages.length; k++){
-        sliderDots[k].classList.remove('activeImage')
-        sliderImages[k].classList.remove('activeImage')
-    }
-    sliderCount++
-    if (sliderCount >= sliderImages.length){
-        sliderCount = 0
-    }
-    sliderImages[sliderCount].classList.add('activeImage');
-    sliderDots[sliderCount].classList.add('activeImage');
-})
-*/
 
 function sliderMy(){
     for (let i=0; i < sliderImages.length; i++){
