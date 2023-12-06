@@ -1,29 +1,32 @@
-
 // Исходные данные по слайдеру (const)
 const sliderImages = document.querySelectorAll('.slider__img'),
     sliderLine = document.querySelector('.slider__line'),
     sliderDots = document.querySelectorAll('.slider__dot'),
     sliderBtnNext = document.querySelector('.slider__btn-next'),
     sliderBtnPrev = document.querySelector('.slider__btn-prev');
-        
-// Переменные    
+
+
+// Переменные
 let sliderCount = 0,
     sliderWidth;
 
+
 // Адаптивность слайдера
 window.addEventListener('resize', showSlide);
+
 
 // Кнопки листания слайдов вперед и назад
 sliderBtnNext.addEventListener('click', nextSlide);
 sliderBtnPrev.addEventListener('click', prevSlide);
 
+
  //Автоматическое перелистывание слайдов
-setInterval(() => {
-   nextSlide()
- }, 3000);
+//setInterval(() => {
+//   nextSlide()
+// }, 3000);
 
 
-// Функции ==================
+// Функции =====================================================================
 // Задает нужную ширину картинки и sliderLine
 function showSlide() {
     sliderWidth = document.querySelector('.slider').offsetWidth;
@@ -35,6 +38,7 @@ function showSlide() {
 showSlide();
 
 
+// Перебеирает все фото поочереди
 function sliderMy(){
     for (let i=0; i < sliderImages.length; i++){
         sliderImages[i].classList.add( 'opacity0');
@@ -61,7 +65,8 @@ function nextSlide() {
     
 }
 
-//кликает по картинке
+
+// Кликает по картинке
 sliderLine.onclick = nextSlide; 
 
 
@@ -81,10 +86,12 @@ function prevSlide() {
     
 }
 
+
 // Задает шаг перемещения слайдов
 function rollSlider() {
     sliderLine.style.transform = `translateX(${-sliderCount * sliderWidth}px)`;
 }
+
 
 // Указывает какой слайд по счету активен
 function thisSlide(index) {
@@ -92,6 +99,7 @@ function thisSlide(index) {
     sliderDots[index].classList.add('active-dot');
  sliderMy();
 }
+
 
 // Вешает клик на dot
 sliderDots.forEach((dot, index) => {
@@ -103,8 +111,7 @@ sliderDots.forEach((dot, index) => {
 })
 
 
-// работа со свайпами
-
+// Работа со свайпами =======================================================
 document.addEventListener('touchstart', handleTouchStart, false);
 document.addEventListener('touchmove', handleTouchMove, false);
 
@@ -134,7 +141,6 @@ function handleTouchMove(event){
         else nextSlide();
 
     } 
-    
 
     x1 = null;
     y1 = null;
