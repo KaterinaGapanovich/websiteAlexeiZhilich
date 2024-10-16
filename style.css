@@ -1268,7 +1268,7 @@ margin-left: 30%;
 }
 
 .vedyschi_na_svadby{
-    margin-left: 50px;
+    margin-left: 40px;
     font-size: 1.8em;
 }
 
@@ -1276,7 +1276,7 @@ margin-left: 30%;
     font-size: 3.5em;
     margin-top: 0;
     transition: 1s;
-    margin-left: 50px;
+    margin-left: 40px;
 } 
 
 .line{
@@ -1389,12 +1389,15 @@ margin-left: 30%;
 
 @media (max-width: 431px) {
 
+
 .vedyschi_na_svadby{
     font-size: 1.3em;
+    margin-right: 30px;
 }
 
 .name{
     font-size: 2.5em;
+    margin-left: 30px;
     transition: 1s;
 } 
 
@@ -1431,7 +1434,7 @@ margin-left: 30%;
     background-size: cover;
     transition: 1s;
 }
-
+/*
 .vedyschi_na_svadby{
     margin-left: 0;
 }
@@ -1439,7 +1442,7 @@ margin-left: 30%;
 .name{
     margin-left: 0;
 }
-
+*/
 .name_and_links{
    
     margin-top: 0px;
@@ -1509,7 +1512,7 @@ margin-left: 30%;
 }
 
 .phone_img{
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .gift{
