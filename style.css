@@ -88,7 +88,7 @@ body{
 }
 
 .phone{
-    font-size: 1.55em;
+    font-size: 1.45em;
     /*margin-top: 12.5%;
     margin-bottom: 3%;
     */
@@ -108,8 +108,9 @@ body{
 }*/
 
 .phone_img{
-    width: 40px;
-    height: 40px;
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
     /*margin-left: -30px;*/
 }
 
@@ -128,8 +129,8 @@ body{
 }
 
 .gift_img{
-    width: 65%;
-    height: 80%;
+    width: 55%;
+    height: 70%;
     margin-top: 5px;
     /*margin-top: -30px;
     margin-left: 15px;*/
@@ -145,8 +146,8 @@ body{
 }
 
 .like_img{
-    width: 6%;
-    height: 6%;
+    width: 8%;
+    height: 8%;
     margin-top: 10px;
 }
 
@@ -506,8 +507,11 @@ li{
     width: 78%;
 }
 
-.last_part{
-    margin: 0;
+.all_phone_footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+    margin-bottom: 10px;
 }
 
 .phone_footer{
@@ -716,9 +720,9 @@ margin-left: 30%;
 }
 
 .phone_img{
-    width: 40px;
-    height: 40px;
-    margin-top: 85%;
+    width: 35px;
+    height: 35px;
+    margin-top: 90%;
 }
 
 .gift{
@@ -840,17 +844,15 @@ margin-left: 30%;
 }
 
 .phone_img{
-    width: 40px;
-    height: 40px;
-    margin-top: 85%;
+    width: 35px;
+    height: 35px;
+    margin-top: 95%;
 }
 
 .gift{
     font-size: 17.5px;
     transition: 1s;
 }
-
-
 
 .likes_two{
     margin-top: 10%;
@@ -1002,17 +1004,22 @@ margin-left: 30%;
     transition: 1s;
 }
 
+.text_under_phone{
+    margin-top: 15px;
+}
+
 .phone{
     font-size: 28px;
 }
 
 .phone_img{
-    width: 40px;
-    height: 40px;
-    margin-top: 85%;
+    width: 35px;
+    height: 35px;
+    margin-top: 87%;
 }
 
 .gift_img{
+    width: 64%;
     height: 53%;
     margin-top: 10px;
 }
@@ -1089,6 +1096,9 @@ margin-left: 30%;
     transition: 1s;
 }
 
+.last_part{
+    margin-left: 5%;
+}
 
 }
 
@@ -1119,6 +1129,7 @@ margin-left: 30%;
     transition: 1s;
   }
   
+
 }
 
 @media (max-width: 641px) {
@@ -1166,7 +1177,11 @@ margin-left: 30%;
     transition: 1s;
 }
 
-
+.gift_img{
+    width: 69%;
+    height: 49%;
+    margin-top: 13px;
+}
 
 .video_prosmotr{
     margin-right: 12%;
@@ -1295,8 +1310,8 @@ margin-left: 30%;
 }
 
 .phone_img{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     margin-top: 64px;
 }
 
@@ -1308,9 +1323,11 @@ margin-left: 30%;
     transition: 1s;
 }
 
+
 .gift_img{
     width: 55%;
-    height: 65%;
+    height: 59%;
+    margin-top: 10px;
 }
 
 .video{
@@ -1392,7 +1409,7 @@ margin-left: 30%;
 
 .vedyschi_na_svadby{
     font-size: 1.3em;
-    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .name{
@@ -1402,11 +1419,13 @@ margin-left: 30%;
 } 
 
 .phone_img{
-    margin-top: 48px;
+    margin-top: 45px;
+    width: 23px;
+    height: 23px;
 }
     
 .gift_img{
-    height: 55%;
+    height: 51%;
 }
 
 .video_prosmotr{
@@ -1512,7 +1531,9 @@ margin-left: 30%;
 }
 
 .phone_img{
-    margin-top: 50px;
+    width: 25px;
+    height: 25px;
+    margin-top: 47px;
 }
 
 .gift{
